@@ -1,0 +1,51 @@
+TWO CONNECTED SWITCHES BOOT AT THE SAME TIME
+
+// known behaviors //
+port types
+    calculated and assigned immediately, regardless of port state
+        (example: can be ROOT port type while in LISTENING state)
+stp is never 'at rest', maintains state machine for each stp instance and participating interface indefinitely
+    timer based
+    who is root bridge?
+    which port should be root?
+    triggers
+        topology change and notification BPDUs
+        other conditions can signal changes and trigger recalculations
+            BPDUs stop arriving on interface beyond max age timer
+            optional features
+
+// port states //
+disabled
+    if administratively shutdown, will not participate
+    otherwise ports are disabled while being initialized by operating system until transition to 'connected'
+blocking
+    receives BPDUs, forwards to switch module
+    any port state can transition to blocking immediately, no timer waits required
+    blocking can transition to listening immediately, no timer waits required
+        disabled <- -> blocking
+        forwarding -> blocking
+        listening <- -> blocking
+        learning -> blocking
+        forwarding -> blocking
+        in thought experiment, two connected switches transition to blocking and then listening immediately
+listening
+    starts forward delay timer (15 sec)
+    receives BPDUs
+    decides best bpdu
+    sends best bpdu
+        either self-originated or relayed (in our experiment both switches think they are root and send BPDUs)
+    evaluates next state, assumes learning, transitions at end of timer
+    if determined
+learning
+    sends and receives BPDUS
+    can transition to blocking immediately if port
+    learns mac addresses
+
+
+OTHER NOTES:
+https://www.cisco.com/c/en/us/support/docs/lan-switching/spanning-tree-protocol/19120-122.html
+
+maximum diameter: recommended 7
+maximum bridge transit delay: considered to be 1 second
+
+
