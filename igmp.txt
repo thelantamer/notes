@@ -1,4 +1,5 @@
-igmp
+// igmp //
 
 version 1
-router
+
+- host sends
