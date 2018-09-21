@@ -1,0 +1,22 @@
+DevOps software
+======================
+
+
+// any platform //
+git
+docker
+python 2.x
+python 3.x
+Visual Studio Code
+Postman
+
+// Windows station //
+Fiddler
+Microsoft SQL Server Management Studio
+
+// .net related //
+Visual Studio
+
+// azure-related //
+Azure Storage Explorer
+Azure Powershell
