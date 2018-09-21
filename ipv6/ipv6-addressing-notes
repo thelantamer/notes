@@ -1,0 +1,42 @@
+***********************
+*** UNICAST/ANYCAST ***
+***********************
+
+/ ROUTING PREFIX - 3 hextets,48 bits [ can be more ] /
+0000 : 0000 : 0000 :
+0000 0000 0000 0000 : 0000 0000 0000 0000 : 0000 0000 0000 0000
+
+/ SUBNET ID - 1 hextet,16 bits [ can be fewer ] /
+0000 :
+0000 0000 0000 0000 :
+
+/ HOST ID - 4 hextets,64 bits [ can be shorter ] /
+0000 : 0000 : 0000 : 0000
+0000 0000 0000 0000 : 0000 0000 0000 0000 : 0000 0000 0000 0000 : 0000 0000 0000 0000 : 0000 0000 0000 0000
+
+***************************
+EUI-48 TO EUI-64 conversion
+***************************
+/ EUI - Extended Unique Identifier) /
+
+STEP 1
+add 16 bits to 48-bit hardware address
+insert ff-fe between OUI and vendor-assigned address
+
+    38-c9-86-06-40-c8 -> 
+    38-c9-86-FF-FE-06-40-c8
+
+STEP 2 - flip universal-local bit (second-least significant of first octet)
+
+    38-c9-86
+        0011 1000 - 1100 1001 - 1000 1010
+               1
+        0011 1010 - 1100 1001 - 1000 1010
+    39-c9-86
+    39-c9-86-ff-fe-06-40-c8
+
+STEP 3 - add fe80: routing prefix, assign /64 mask
+
+    fe80::39c9:86ff:fe06:40c8/64
+
+fe80::44c:1752:ed0b:c34d
