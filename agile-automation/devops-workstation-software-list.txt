@@ -13,6 +13,7 @@ Postman
 // Windows station //
 Fiddler
 Microsoft SQL Server Management Studio
+Linux subsystem for windows
 
 // .net related //
 Visual Studio
