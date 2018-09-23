@@ -5,7 +5,7 @@
 // observed in 'the wild'
 
 Type    Description                             Source          Destination
-130     Multicast Listener Query                link-local      ff02::1
+130     Multicast Listener Query                ::,link-local   ff02::1
 133     Router Solicitation                     ::              ff02::2
 134     Router Advertisement                    link-local      ff02::1
 135     Neighbor Solicitation                   ::, link-local  ff01::1:ff01:0
