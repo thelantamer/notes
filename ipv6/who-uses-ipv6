@@ -1,0 +1,11 @@
+Since configuring a Mac dual-stack PC behind Spectrum as residential ISP, this is a log of major content providers and sites and whether traffic has been observed as either predominantly IPv6 or IPv4:
+
+ipv6
+====
+google
+netflix
+
+ipv4
+====
+twitch
+twitter
