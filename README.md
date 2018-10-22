@@ -1,6 +1,14 @@
-# references-notes
-References and notes for study and practice. Formely on google drive as 'reference-sheets' folder
+# notes
+These are various CCIE notes and references for study and practice.
 
 Mostly spreadsheets, word documents, and text files used for note-taking and concepts.
 
-Transitioned from google drive publich folder starting on 9/9/2018
+# links
+- twitch (https://twitch.tv/thelantamer/)
+- youtube (https://www.youtube.com/thelantamer/)
+- discord (https://discord.gg/BBSGPYH/)
+- twitter (https://twitter.com/thelantamer/)
+- instagram (https://www.instagram.com/thelantamer/)
+
+# License
+Licensed under the Creative Commons 4.0 License
