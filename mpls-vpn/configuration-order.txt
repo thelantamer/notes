@@ -1,0 +1,18 @@
+MP-BGP configuration steps:
+- CE:
+    configure peering to PE router
+- SP: [IGP and LDP]
+    loopbacks
+    IGP (OSPF) enabled on internal interfaces
+    enable LDP internal interfaces
+    verify connectivity and label path
+- PE: VRFs
+    create vrfs with RDs and RTs
+    assign vrfs to interfaces
+    add IPs
+    verify connectivity to CE routers
+- PE: iBGP peering with other PEs
+    bgp config
+        vpnv4 af
+        disable ipv4 af
+- PE: peering with CEs
