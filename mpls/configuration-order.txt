@@ -1,0 +1,7 @@
+MP-BGP configuration order
+
+- SP: IGP
+- SP: LDP
+- PE: VRFs
+- PE: iBGP peering
+- PE/CE: BGP peering
