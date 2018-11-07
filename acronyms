@@ -1,0 +1,47 @@
+lcp- ppp link control protocol
+rrp- role resolution protocol
+lmp- link management protocol
+vslp- virtual switch link protocol
+chap- challenge handshake authentication protocol
+mlppp- multilink ppp
+lfi- link fragmentation and interleaving
+vpls- virtual private lan service
+epl- ethernet private line
+evpl- ethernet virtual private line
+uni- user network interface
+bdp- bandwidth delay product
+lln- low-power lossy network
+qemu- quick emulator
+kvm- kernel-based virtual machine
+avf- active virtual forwarders
+epg- endpoint groups
+anp- application network profile
+mrt- maximum response time
+rtc- route target constraint
+wred- weighted random early detection
+mpd- mark probability denominator
+ipp- ip precedence
+dscp- differentiated services code point
+wtd- weighted tail drop
+rsvp- resource reservation protocol
+erms- ethernet relay multipoint service
+ems- ethernet multipoint service
+alg- application layer gateway
+nat-pt- nat protocol translation
+eap- extensible authentication protocol
+tcl- tool command language
+eem- embedded event manager
+rtcp- real-time transport control protocol
+php- penultimate hop popping
+dpd- dead peer detection
+NPTv6- Network Prefix Translation version 6
+mtr- multiple topology routing
+msdp- multicast source discovery protocol
+mld- multicast listener discovery
+rest- representational state transfer
+coap- constrained application protocol
+core- constrained restful environments
+6lowpan- ipv6 low power wireless personal area networks
+m2m- machine to machine
+afi- address family indicator
+safi- subsequent address family indicator
