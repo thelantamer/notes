@@ -5,3 +5,6 @@ MP-BGP configuration order
 - PE: VRFs
 - PE: iBGP peering
 - PE/CE: BGP peering
+[ optional ]
+- PE redistribute BGP < IGP
+- PE redistribute IGP < BGP
