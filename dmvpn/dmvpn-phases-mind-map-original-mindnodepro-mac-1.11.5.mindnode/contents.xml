@@ -32,7 +32,7 @@
 				<key>location</key>
 				<string>{0, 0}</string>
 				<key>nodeID</key>
-				<string>49AA94A5-2066-43A7-A085-C8025E9F38E3</string>
+				<string>329F86F9-76EF-4DEE-B886-1E2AD4801FE2</string>
 				<key>strokeColor</key>
 				<string>{0.273, 0.357, 0.383, 1.000}</string>
 				<key>strokeStyle</key>
@@ -55,7 +55,7 @@
 						<key>location</key>
 						<string>{137, -921.5}</string>
 						<key>nodeID</key>
-						<string>9E22BE51-4F04-4227-BA59-B2C670ED8710</string>
+						<string>15C85E79-830F-4DB1-A059-3190AA89112E</string>
 						<key>strokeColor</key>
 						<string>{0.647, 0.468, 0.027, 1.000}</string>
 						<key>strokeStyle</key>
@@ -78,7 +78,7 @@
 								<key>location</key>
 								<string>{260, -1308.5}</string>
 								<key>nodeID</key>
-								<string>326FC03C-EAF8-457E-A2E4-0CCE34B77A07</string>
+								<string>42F1DFBB-D8C1-497D-B169-17A60435A9D7</string>
 								<key>strokeColor</key>
 								<string>{0.647, 0.468, 0.027, 1.000}</string>
 								<key>strokeStyle</key>
@@ -101,7 +101,7 @@
 										<key>location</key>
 										<string>{392, -1382.5}</string>
 										<key>nodeID</key>
-										<string>36476FD0-A5FC-47C6-B208-5414D6D9C17F</string>
+										<string>B1AE15A6-B783-4D84-AAB5-E64A51FD7D3E</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -122,7 +122,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub used for control plane and data plane}</string>
@@ -142,7 +142,7 @@
 										<key>location</key>
 										<string>{392, -1349.5}</string>
 										<key>nodeID</key>
-										<string>5F609444-BE68-411D-B547-5C4E0DD3540D</string>
+										<string>618FEA02-0D73-4E8B-BEDA-EF3C70BC2569</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -163,7 +163,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spokes use point-to-point GRE to hub only}</string>
@@ -183,7 +183,7 @@
 										<key>location</key>
 										<string>{392, -1316.5}</string>
 										<key>nodeID</key>
-										<string>8B11060F-05B7-48F2-8067-EEF7494346D2</string>
+										<string>A7DC6C29-D980-42A5-93B5-593FE53376D9</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -204,7 +204,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 care needed with default routes through tunnel, may cause recursive issue when DMVPN used over Internet}</string>
@@ -224,7 +224,7 @@
 										<key>location</key>
 										<string>{392, -1250.5}</string>
 										<key>nodeID</key>
-										<string>BD319E2A-7761-45E0-9E5A-3DB95295F173</string>
+										<string>52570AED-A1CC-4957-9158-3DFD906A2374</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -245,7 +245,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 is-is not supported in any phase, incompatible with nhrp}</string>
@@ -264,7 +264,7 @@
 									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 attributes}</string>
@@ -284,7 +284,7 @@
 								<key>location</key>
 								<string>{260, -831}</string>
 								<key>nodeID</key>
-								<string>8D481386-3C9F-4B3D-BFF9-9BC8821AFAFB</string>
+								<string>7A7D2508-DFC0-4CAD-B8F5-C8A1EA3347A2</string>
 								<key>strokeColor</key>
 								<string>{0.647, 0.468, 0.027, 1.000}</string>
 								<key>strokeStyle</key>
@@ -307,7 +307,7 @@
 										<key>location</key>
 										<string>{376, -1193.5}</string>
 										<key>nodeID</key>
-										<string>081DA3AE-BD64-4B6C-BC2A-86ACECF2EBDA</string>
+										<string>EC548EED-1F7C-483E-9837-F8961F13D3AB</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -330,7 +330,7 @@
 												<key>location</key>
 												<string>{488, -1201.5}</string>
 												<key>nodeID</key>
-												<string>22A7A2C3-F3EA-45AA-B760-3399436F2BE5</string>
+												<string>BD38620B-6394-44AA-A6A3-C5B71EEE9FB4</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -351,7 +351,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 summary or default route to spokes, otherwise \'91no ip split horizon\'92 at hub}</string>
@@ -370,7 +370,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 RIP}</string>
@@ -390,7 +390,7 @@
 										<key>location</key>
 										<string>{376, -1152.5}</string>
 										<key>nodeID</key>
-										<string>6FAC2166-6ADE-480A-B46D-253C37C0A67D</string>
+										<string>358EB161-3D5F-479B-93A0-0B7399DDA181</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -413,7 +413,7 @@
 												<key>location</key>
 												<string>{490, -1152.5}</string>
 												<key>nodeID</key>
-												<string>4DFC4071-23F3-4749-BF85-397010770D5B</string>
+												<string>02145B94-86F7-405C-A01A-6441BCFFC5FF</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -434,7 +434,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 similar to RIP, change next hop}</string>
@@ -453,7 +453,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 EIGRP}</string>
@@ -473,7 +473,7 @@
 										<key>location</key>
 										<string>{376, -913.5}</string>
 										<key>nodeID</key>
-										<string>EF7D8611-A572-4ED7-B7EC-BF471EA011D6</string>
+										<string>7BC70180-4A25-4FDD-AEA8-875AD83DED9F</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -496,7 +496,7 @@
 												<key>location</key>
 												<string>{488, -954.5}</string>
 												<key>nodeID</key>
-												<string>FD5DC86B-D5E5-4BEA-BF32-47FC86DBFF3C</string>
+												<string>04A7E1D1-8991-44F9-93E9-3A973E16A2FF</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -519,7 +519,7 @@
 														<key>location</key>
 														<string>{653, -1103}</string>
 														<key>nodeID</key>
-														<string>4FCA21AF-6ADD-40CF-8A98-A0B7C5EBEACE</string>
+														<string>931E7596-FEEC-4716-99BD-31820C889721</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -542,7 +542,7 @@
 																<key>location</key>
 																<string>{812, -1119.5}</string>
 																<key>nodeID</key>
-																<string>B23574BE-006E-4ED6-A10B-F0CD36FC1417</string>
+																<string>A1D4EE05-EA6D-47FC-B949-41929E25CC1D</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -563,7 +563,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 default on multipoint interfaces}</string>
@@ -583,7 +583,7 @@
 																<key>location</key>
 																<string>{812, -1086.5}</string>
 																<key>nodeID</key>
-																<string>6FB4F2FB-261C-4672-BB12-0CEAEE832B3C</string>
+																<string>6B97341D-AC84-41EF-B5F0-F1E9BB8AEE07</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -604,7 +604,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 doesn\'92t work}</string>
@@ -623,7 +623,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 point-to-point}</string>
@@ -643,7 +643,7 @@
 														<key>location</key>
 														<string>{653, -1020.5}</string>
 														<key>nodeID</key>
-														<string>93DAAFDA-4EF2-4F18-98E8-433A283883BA</string>
+														<string>E78B5291-2C05-414E-85A5-693FBF0C64E5</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -666,7 +666,7 @@
 																<key>location</key>
 																<string>{843, -1053.5}</string>
 																<key>nodeID</key>
-																<string>1DB91E5F-49E0-4CEF-864D-206954E1BF11</string>
+																<string>BE35A831-EF58-411F-8A34-CE3FD8BE5890</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -687,7 +687,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works well}</string>
@@ -707,7 +707,7 @@
 																<key>location</key>
 																<string>{843, -1020.5}</string>
 																<key>nodeID</key>
-																<string>10D0D700-1619-4C0E-8CDC-43CCF2731FA2</string>
+																<string>7CB1E9C0-2FCD-40FC-8FAD-EA049C4FC178</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -728,7 +728,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spokes ospf priority 0}</string>
@@ -748,7 +748,7 @@
 																<key>location</key>
 																<string>{843, -987.5}</string>
 																<key>nodeID</key>
-																<string>BA2CBE37-B645-4CA5-8694-4459D5D4D50E</string>
+																<string>0FD88DBF-5AF3-4E65-AC7B-5AF5055EA76B</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -769,7 +769,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 next-hop value preserved}</string>
@@ -788,7 +788,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 network broadcast}</string>
@@ -808,7 +808,7 @@
 														<key>location</key>
 														<string>{653, -938}</string>
 														<key>nodeID</key>
-														<string>5D5D10DE-3666-4158-87B3-E644E37BAF11</string>
+														<string>5616E41B-79F9-419B-8557-EB5B46F55B70</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -831,7 +831,7 @@
 																<key>location</key>
 																<string>{818, -954.5}</string>
 																<key>nodeID</key>
-																<string>D8761ABD-A9B6-4EDE-A7DE-C14D8E983B27</string>
+																<string>BE738694-5699-42E2-93FD-C409BC0E5333</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -852,7 +852,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spokes ospf priority 0}</string>
@@ -872,7 +872,7 @@
 																<key>location</key>
 																<string>{818, -921.5}</string>
 																<key>nodeID</key>
-																<string>7463464E-18AF-476C-9891-17C53A1B28E3</string>
+																<string>3088ED16-4134-4DFC-92FB-CD2AA47B9570</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -893,7 +893,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 static neighbors (defeats purpose)}</string>
@@ -912,7 +912,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 non-broadcast}</string>
@@ -932,7 +932,7 @@
 														<key>location</key>
 														<string>{653, -855.5}</string>
 														<key>nodeID</key>
-														<string>ADB883AB-1277-402F-BA2A-4C9DE986B598</string>
+														<string>30BB4150-1040-439F-B1B3-94E1D8CD54E9</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -955,7 +955,7 @@
 																<key>location</key>
 																<string>{847, -888.5}</string>
 																<key>nodeID</key>
-																<string>D9A114F6-1303-4C2C-9519-AA897FF5761F</string>
+																<string>723FF2C9-9344-4CA3-986B-EDF6E5F37580</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -976,7 +976,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 best for phase 1}</string>
@@ -996,7 +996,7 @@
 																<key>location</key>
 																<string>{847, -855.5}</string>
 																<key>nodeID</key>
-																<string>4D383E90-B59E-4E4B-AEFB-AB5AC8CBAD07</string>
+																<string>8419C5D5-9EA9-41ED-8AF8-375EF356861B</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -1017,7 +1017,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 no DR/BDR}</string>
@@ -1037,7 +1037,7 @@
 																<key>location</key>
 																<string>{847, -822.5}</string>
 																<key>nodeID</key>
-																<string>05FE0E03-D835-412F-AA65-A66C6D5DE1E3</string>
+																<string>2C8AD845-E637-411B-9667-78365B961D80</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -1058,7 +1058,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 next-hop value changed}</string>
@@ -1077,7 +1077,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 *point-to-multipoint}</string>
@@ -1097,7 +1097,7 @@
 														<key>location</key>
 														<string>{653, -789.5}</string>
 														<key>nodeID</key>
-														<string>E5D28C30-311D-430C-A6A6-E58C30396804</string>
+														<string>3E14EF68-0694-44E7-BE77-FC9F9B94FEFD</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1120,7 +1120,7 @@
 																<key>location</key>
 																<string>{937, -789.5}</string>
 																<key>nodeID</key>
-																<string>C1B9FE07-BDC0-4E1F-B3C2-46ADC465CED3</string>
+																<string>4F65E288-062B-4690-B7CC-7A31D737FE3E</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -1141,7 +1141,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 same with static neighbors	}</string>
@@ -1160,7 +1160,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 point-to-multipoint non broadcast}</string>
@@ -1179,7 +1179,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 interface types}</string>
@@ -1199,7 +1199,7 @@
 												<key>location</key>
 												<string>{488, -732}</string>
 												<key>nodeID</key>
-												<string>170B5C08-DF96-4C41-81E9-B7AC8220C53F</string>
+												<string>D003390C-1248-4FDD-B787-E86D1971FEFD</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -1222,7 +1222,7 @@
 														<key>location</key>
 														<string>{705, -756.5}</string>
 														<key>nodeID</key>
-														<string>323FFCF7-B74B-4765-8018-434FF9811F45</string>
+														<string>CFBE5709-3151-4EDB-9E18-D72ADBCB8A86</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1245,7 +1245,7 @@
 																<key>location</key>
 																<string>{889, -756.5}</string>
 																<key>nodeID</key>
-																<string>58656B0A-BD0C-4FD0-A7E4-95B64714BE3F</string>
+																<string>F26C3C29-C812-4E75-B997-3DCD0E84B465</string>
 																<key>strokeColor</key>
 																<string>{0.647, 0.468, 0.027, 1.000}</string>
 																<key>strokeStyle</key>
@@ -1266,7 +1266,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 can convert to stub area}</string>
@@ -1285,7 +1285,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 no summarization}</string>
@@ -1305,7 +1305,7 @@
 														<key>location</key>
 														<string>{705, -723.5}</string>
 														<key>nodeID</key>
-														<string>E4E3B698-61EC-4B0D-B8F1-6720B380D4FD</string>
+														<string>C51DC81A-2201-4524-8100-2E07AA1C695E</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1326,7 +1326,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spokes have to be in same area, spf runs any change}</string>
@@ -1345,7 +1345,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 multiple disadvantages}</string>
@@ -1364,7 +1364,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 OSPF}</string>
@@ -1384,7 +1384,7 @@
 										<key>location</key>
 										<string>{376, -567.5}</string>
 										<key>nodeID</key>
-										<string>3413E048-BB37-486A-9B53-3E68557030F5</string>
+										<string>74F6C689-B218-420E-AA9F-D30B0C3CC866</string>
 										<key>strokeColor</key>
 										<string>{0.647, 0.468, 0.027, 1.000}</string>
 										<key>strokeStyle</key>
@@ -1407,7 +1407,7 @@
 												<key>location</key>
 												<string>{488, -650}</string>
 												<key>nodeID</key>
-												<string>AF2AAE97-C15F-4044-9D04-3F46AFD44BC3</string>
+												<string>F023D528-873D-47E4-B605-650229EC9DC8</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -1430,7 +1430,7 @@
 														<key>location</key>
 														<string>{674, -674.5}</string>
 														<key>nodeID</key>
-														<string>9E6DE4FE-F2CD-4696-8FD1-C60E8A70AF3C</string>
+														<string>F6DAB4F5-0F85-4D38-BC7C-3F4AE22F8CC7</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1451,7 +1451,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 manually configured neighbors}</string>
@@ -1471,7 +1471,7 @@
 														<key>location</key>
 														<string>{674, -641.5}</string>
 														<key>nodeID</key>
-														<string>6F480AF4-659E-4533-8F22-9AEABE19FE74</string>
+														<string>A4A6ECCA-55B8-45A5-B118-50A42340D368</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1492,7 +1492,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 best to advertise default route from hub, filter others}</string>
@@ -1511,7 +1511,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 eBGP different AS}</string>
@@ -1531,7 +1531,7 @@
 												<key>location</key>
 												<string>{488, -576}</string>
 												<key>nodeID</key>
-												<string>9990A0D1-0150-4F61-9EF1-B0D5FF67E883</string>
+												<string>709DA378-ED50-4F2B-A4A7-78A61D26DDFF</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -1554,7 +1554,7 @@
 														<key>location</key>
 														<string>{714, -592.5}</string>
 														<key>nodeID</key>
-														<string>D5C51BA7-7F47-4E6A-B268-7E8CAD8463EC</string>
+														<string>B6211AD3-2C69-4B5D-8DC7-6E216640C049</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1575,7 +1575,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 manually configured neighbors}</string>
@@ -1595,7 +1595,7 @@
 														<key>location</key>
 														<string>{714, -559.5}</string>
 														<key>nodeID</key>
-														<string>78C90E60-E506-419B-B7FD-693D9048729C</string>
+														<string>C798439C-0657-447E-9F84-3CB209561404</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1616,7 +1616,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 no filtering needed, part of iBGP}</string>
@@ -1635,7 +1635,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 eBGP hub, iBGP spokes}</string>
@@ -1655,7 +1655,7 @@
 												<key>location</key>
 												<string>{488, -526.5}</string>
 												<key>nodeID</key>
-												<string>7ACE381D-C2C6-467F-A4DE-A4B8BBA51171</string>
+												<string>9B71C2BB-A226-4CA5-8327-83489551B85E</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -1678,7 +1678,7 @@
 														<key>location</key>
 														<string>{719, -526.5}</string>
 														<key>nodeID</key>
-														<string>43235DE5-F0FA-4645-833F-D4101FF53B11</string>
+														<string>43A80642-D035-418E-B577-EE1FF3547DE0</string>
 														<key>strokeColor</key>
 														<string>{0.647, 0.468, 0.027, 1.000}</string>
 														<key>strokeStyle</key>
@@ -1699,7 +1699,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 dynamic configuration, best use case for bop}</string>
@@ -1718,7 +1718,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 iBGP with dynamic peers}</string>
@@ -1738,7 +1738,7 @@
 												<key>location</key>
 												<string>{488, -493.5}</string>
 												<key>nodeID</key>
-												<string>884A3640-B4F4-49C5-9D1E-02D252F8BBED</string>
+												<string>C77C1CC5-0D37-43C6-9238-C6FEDDB882E4</string>
 												<key>strokeColor</key>
 												<string>{0.647, 0.468, 0.027, 1.000}</string>
 												<key>strokeStyle</key>
@@ -1759,7 +1759,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 advantageous for large implementations, greater control over advertisements, summarizations, and filtering}</string>
@@ -1778,7 +1778,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 BGP}</string>
@@ -1797,7 +1797,7 @@
 									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 routing}</string>
@@ -1816,7 +1816,7 @@
 							<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 Phase 1}</string>
@@ -1836,7 +1836,7 @@
 						<key>location</key>
 						<string>{137, 165}</string>
 						<key>nodeID</key>
-						<string>9E4A6F2F-BC21-4682-8B09-3C8FFCEB6C4D</string>
+						<string>550F8DC6-A88B-4B83-A7EF-C45577D20D71</string>
 						<key>strokeColor</key>
 						<string>{0.747, 0.236, 0.101, 1.000}</string>
 						<key>strokeStyle</key>
@@ -1859,7 +1859,7 @@
 								<key>location</key>
 								<string>{260, -214}</string>
 								<key>nodeID</key>
-								<string>A1AB82E7-2FDB-4412-9956-2F07DA584F1C</string>
+								<string>9D4DFBDE-6549-442B-8D6E-B39E5B49FD5A</string>
 								<key>strokeColor</key>
 								<string>{0.747, 0.236, 0.101, 1.000}</string>
 								<key>strokeStyle</key>
@@ -1882,7 +1882,7 @@
 										<key>location</key>
 										<string>{392, -427.5}</string>
 										<key>nodeID</key>
-										<string>F4755C32-B77E-4A09-8FB0-E8DCB6BD0982</string>
+										<string>7677D13F-D80E-4A78-89AC-4A313D5575B7</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -1903,7 +1903,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub is used for control plane, not needed data plane}</string>
@@ -1923,7 +1923,7 @@
 										<key>location</key>
 										<string>{392, -378.5}</string>
 										<key>nodeID</key>
-										<string>A0258B81-837B-4143-A8DE-C19E1AB09750</string>
+										<string>9E40F5CF-B0E6-4CD7-8B6C-87A61E332935</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -1944,7 +1944,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spokes use multipoint GRE}</string>
@@ -1964,7 +1964,7 @@
 										<key>location</key>
 										<string>{392, -345.5}</string>
 										<key>nodeID</key>
-										<string>6421A996-016F-4F4D-9CDC-0F73BC3C800E</string>
+										<string>311A78BB-6EEE-4D6E-A1F6-0B618914E6D2</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -1985,7 +1985,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub config - same as phase 1}</string>
@@ -2005,7 +2005,7 @@
 										<key>location</key>
 										<string>{392, -296}</string>
 										<key>nodeID</key>
-										<string>DBE26113-FDFC-402D-A541-A3E4CE5CCC1B</string>
+										<string>2578B408-EF9C-4CCD-9905-626966CB16EB</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2028,7 +2028,7 @@
 												<key>location</key>
 												<string>{623, -312.5}</string>
 												<key>nodeID</key>
-												<string>70A60EF3-6C9E-478A-989F-4B1A5F847335</string>
+												<string>C8D067C6-C2C1-4E86-9466-B1666C0CDF1C</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2049,7 +2049,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 no tunnel destination command}</string>
@@ -2069,7 +2069,7 @@
 												<key>location</key>
 												<string>{623, -279.5}</string>
 												<key>nodeID</key>
-												<string>9CC74EA4-8E0F-41FF-A2DF-DBC4FD96103A</string>
+												<string>AD397C04-47EB-4588-BA2D-243F1F0A7AAD</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2090,7 +2090,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 tunnel mode multipoint gre}</string>
@@ -2109,7 +2109,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spoke config - 2 changes}</string>
@@ -2129,7 +2129,7 @@
 										<key>location</key>
 										<string>{392, -246.5}</string>
 										<key>nodeID</key>
-										<string>A0CA0FAB-8879-4C14-BCEF-FD66CA6BB98C</string>
+										<string>181C35DC-4302-4270-917C-075C4DD0C833</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2150,7 +2150,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 simple to upgrade DMVPN config from phase 1 to 2}</string>
@@ -2170,7 +2170,7 @@
 										<key>location</key>
 										<string>{392, -197.5}</string>
 										<key>nodeID</key>
-										<string>DAE4A627-7B78-4BE9-BE74-B77180814BC1</string>
+										<string>22064853-C9E6-4414-A1F8-39CD6486CC81</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2191,7 +2191,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 routing protocol config present challenges}</string>
@@ -2211,7 +2211,7 @@
 										<key>location</key>
 										<string>{392, -107}</string>
 										<key>nodeID</key>
-										<string>5B43092D-FC14-492E-8C1C-235C6A2190C7</string>
+										<string>533279EC-18F2-4ED0-AD72-923ADBB13932</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2234,7 +2234,7 @@
 												<key>location</key>
 												<string>{647, -164.5}</string>
 												<key>nodeID</key>
-												<string>53538CF7-6D2B-45C6-BD00-D05F4B89FD38</string>
+												<string>E3CEC932-FE08-4580-94A5-255D2D80CCC8</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2255,7 +2255,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 reg requests must be answered by owner}</string>
@@ -2275,7 +2275,7 @@
 												<key>location</key>
 												<string>{647, -131.5}</string>
 												<key>nodeID</key>
-												<string>1BA83EC5-BC0A-4BA9-83E6-BF72DE30E7DD</string>
+												<string>F2E19B58-63AE-4568-8419-7CFE6610DB10</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2296,7 +2296,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spoke1 sends nhrp reg request to hub for spoke2}</string>
@@ -2316,7 +2316,7 @@
 												<key>location</key>
 												<string>{647, -82.5}</string>
 												<key>nodeID</key>
-												<string>B67A24A9-1AAA-48F3-AAD2-730296E5CCFB</string>
+												<string>A7B97053-6748-4B16-8266-52E7BC743FBE</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2337,7 +2337,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub forwards request to spoke2}</string>
@@ -2357,7 +2357,7 @@
 												<key>location</key>
 												<string>{647, -49.5}</string>
 												<key>nodeID</key>
-												<string>F9CFC3A6-F792-4FCF-AE03-F59C5D554412</string>
+												<string>A3D0E3D9-0983-4062-A4F9-A8FD24C5F2D8</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2378,7 +2378,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spoke2 sends reg reply directly to spoke1 }</string>
@@ -2397,7 +2397,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spoke to spoke nhrp process}</string>
@@ -2417,7 +2417,7 @@
 										<key>location</key>
 										<string>{392, -16.5}</string>
 										<key>nodeID</key>
-										<string>E5252CC2-2FC6-4E4D-8468-EDE4B1BC61B4</string>
+										<string>DD19CB7A-0CBD-49EA-B7D5-A2F530E28AC8</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2438,7 +2438,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 potentially same issue with default routes advertised through tunnel}</string>
@@ -2457,7 +2457,7 @@
 									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 attributes}</string>
@@ -2477,7 +2477,7 @@
 								<key>location</key>
 								<string>{260, 395}</string>
 								<key>nodeID</key>
-								<string>373BE817-909E-43B7-9248-2B8AD528C7AE</string>
+								<string>9AB9EC1D-1A78-4FD6-8189-381572B7AAF7</string>
 								<key>strokeColor</key>
 								<string>{0.747, 0.236, 0.101, 1.000}</string>
 								<key>strokeStyle</key>
@@ -2500,7 +2500,7 @@
 										<key>location</key>
 										<string>{376, 65.5}</string>
 										<key>nodeID</key>
-										<string>D43DB9FB-9F0E-40EC-B945-EAB82313D8D4</string>
+										<string>EDEA6553-69BA-4819-9398-551F72065D06</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2523,7 +2523,7 @@
 												<key>location</key>
 												<string>{488, 32.5}</string>
 												<key>nodeID</key>
-												<string>5B77633F-65AC-420D-9615-698AAD6F2CD5</string>
+												<string>E71DA8DB-2365-4298-B2D6-09C613999706</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2544,7 +2544,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works well}</string>
@@ -2564,7 +2564,7 @@
 												<key>location</key>
 												<string>{488, 65.5}</string>
 												<key>nodeID</key>
-												<string>87EFA98F-929F-4211-A641-DC372E776936</string>
+												<string>8A324BDF-288F-47BA-B31A-8AE0F6C06864</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2585,7 +2585,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 doesn\'92t change next hop}</string>
@@ -2605,7 +2605,7 @@
 												<key>location</key>
 												<string>{488, 98.5}</string>
 												<key>nodeID</key>
-												<string>F0B1EEC5-3F27-4790-84CE-423668E11645</string>
+												<string>824A13B1-0555-41F0-886C-A7B255E8F42C</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2626,7 +2626,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub needs \'91no ip split horizon\'92}</string>
@@ -2645,7 +2645,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 RIP}</string>
@@ -2665,7 +2665,7 @@
 										<key>location</key>
 										<string>{376, 164.5}</string>
 										<key>nodeID</key>
-										<string>DE4CC0BD-F1C2-4AAC-B176-5CE108FA5D1C</string>
+										<string>219CA8CD-F62C-4727-92C8-351D6C4913D8</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2688,7 +2688,7 @@
 												<key>location</key>
 												<string>{490, 131.5}</string>
 												<key>nodeID</key>
-												<string>B06B8971-74AC-4C76-BBDE-7D583188B14D</string>
+												<string>CF26F2F5-4C8E-4901-AB29-F7B3D32DE994</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2709,7 +2709,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 split horizon needed}</string>
@@ -2729,7 +2729,7 @@
 												<key>location</key>
 												<string>{490, 181}</string>
 												<key>nodeID</key>
-												<string>2F3BFAA8-715C-4EF6-B307-C0D40B95F497</string>
+												<string>2E630D08-A767-4C12-8C1A-379E031ADDF7</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2752,7 +2752,7 @@
 														<key>location</key>
 														<string>{797, 164.5}</string>
 														<key>nodeID</key>
-														<string>BF770A55-81B9-4DBB-B28A-0E4940C6CAFE</string>
+														<string>88ACFBA0-6297-41FC-9F17-E31DF2DC90BB</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -2773,7 +2773,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 interface-level command}</string>
@@ -2793,7 +2793,7 @@
 														<key>location</key>
 														<string>{797, 197.5}</string>
 														<key>nodeID</key>
-														<string>C2B7F68A-9567-4540-8E81-8FFCB0C77DD9</string>
+														<string>7BF2C25B-5CAD-4A00-885A-0539E5CC91E6</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -2814,7 +2814,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 on by default}</string>
@@ -2833,7 +2833,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 \'91no ip next-hop-self eigrp AS\'92 needed}</string>
@@ -2852,7 +2852,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 EIGRP}</string>
@@ -2872,7 +2872,7 @@
 										<key>location</key>
 										<string>{376, 379}</string>
 										<key>nodeID</key>
-										<string>B4FF8DD8-F4C0-4934-B07D-F69F4FFD4F36</string>
+										<string>DA2E6BB0-E785-44A4-A57D-2B70923D5D6E</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -2895,7 +2895,7 @@
 												<key>location</key>
 												<string>{488, 379}</string>
 												<key>nodeID</key>
-												<string>DC4A800F-379E-4BFD-A3F7-2BFCB53F24DC</string>
+												<string>A4DFADD0-317B-4B40-B8B3-26807BB2A99C</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -2918,7 +2918,7 @@
 														<key>location</key>
 														<string>{622, 230.5}</string>
 														<key>nodeID</key>
-														<string>DBE9DCD5-9CF6-43E7-BD2E-2434D5386FDA</string>
+														<string>E8C4C3BF-5F56-4387-A510-00FFDBB5CBB2</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -2941,7 +2941,7 @@
 																<key>location</key>
 																<string>{781, 230.5}</string>
 																<key>nodeID</key>
-																<string>470E263D-109B-403E-A2B3-DD7A300AEB19</string>
+																<string>35E14C7C-0703-406B-A47B-55A4E7139621</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -2962,7 +2962,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 doesn\'92t work}</string>
@@ -2981,7 +2981,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 point-to-point}</string>
@@ -3001,7 +3001,7 @@
 														<key>location</key>
 														<string>{622, 280}</string>
 														<key>nodeID</key>
-														<string>90B4B241-C5CC-419C-A0AE-66CCDDE37F63</string>
+														<string>4672E790-9B06-44CE-BB20-7E1EC4A1AA3E</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3024,7 +3024,7 @@
 																<key>location</key>
 																<string>{762, 263.5}</string>
 																<key>nodeID</key>
-																<string>EA34281C-BD52-4A0F-82EF-A7D6F401B3D7</string>
+																<string>D43115D3-885A-4D1E-ABEA-693F1C28CD81</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3045,7 +3045,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 best for phase 2}</string>
@@ -3065,7 +3065,7 @@
 																<key>location</key>
 																<string>{762, 296.5}</string>
 																<key>nodeID</key>
-																<string>641D66BE-906C-463B-8B74-13EE1F57FC25</string>
+																<string>5113B9A5-C3E6-4E6E-9285-D17639554AD0</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3086,7 +3086,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spoke ospf priority 0}</string>
@@ -3105,7 +3105,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 *broadcast}</string>
@@ -3125,7 +3125,7 @@
 														<key>location</key>
 														<string>{622, 346}</string>
 														<key>nodeID</key>
-														<string>3EEFC62D-322D-41B2-8CA4-30B9D1AA6F1B</string>
+														<string>AA02C775-3F69-4A2A-A173-1449B70F48D0</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3148,7 +3148,7 @@
 																<key>location</key>
 																<string>{787, 329.5}</string>
 																<key>nodeID</key>
-																<string>A67138AD-074D-4DC0-91BD-27DD64BEBB1B</string>
+																<string>0A77D820-7AF2-45EB-B3D7-B9BD77560D07</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3169,7 +3169,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works same as broadcast}</string>
@@ -3189,7 +3189,7 @@
 																<key>location</key>
 																<string>{787, 362.5}</string>
 																<key>nodeID</key>
-																<string>D20B4785-598B-4983-A8D4-1FB9D022A7F9</string>
+																<string>2D45700F-6C24-4031-ADD3-EC40D26D08EE</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3210,7 +3210,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 static neighbors}</string>
@@ -3229,7 +3229,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 non-broadcast}</string>
@@ -3249,7 +3249,7 @@
 														<key>location</key>
 														<string>{622, 428.5}</string>
 														<key>nodeID</key>
-														<string>9E3DC778-5699-4F29-A9CB-BE35BAD64050</string>
+														<string>87DF414C-0FAD-47C7-833F-267C22C2F274</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3272,7 +3272,7 @@
 																<key>location</key>
 																<string>{811, 395.5}</string>
 																<key>nodeID</key>
-																<string>26944A6E-5787-4D93-A797-9C4963784D82</string>
+																<string>DE32F129-C813-48BF-ABE0-6BBF46EDAE23</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3293,7 +3293,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 not recommended}</string>
@@ -3313,7 +3313,7 @@
 																<key>location</key>
 																<string>{811, 428.5}</string>
 																<key>nodeID</key>
-																<string>709D3A0E-E15A-45D9-8C41-E47E365C7591</string>
+																<string>5FF178F6-D935-4552-82AA-F129F5BCD579</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3334,7 +3334,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub changes next hop to itself}</string>
@@ -3354,7 +3354,7 @@
 																<key>location</key>
 																<string>{811, 461.5}</string>
 																<key>nodeID</key>
-																<string>E03FA0C5-D0E0-447B-A0DB-A54FA8CD86DF</string>
+																<string>F3A6FA2A-EEAF-4B42-A669-888DF4F7CFBE</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3375,7 +3375,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub still used for data plane}</string>
@@ -3394,7 +3394,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 point-to-multipoint}</string>
@@ -3414,7 +3414,7 @@
 														<key>location</key>
 														<string>{622, 511}</string>
 														<key>nodeID</key>
-														<string>CF7D36D6-BB1D-46CD-8B01-C6885D5D3F09</string>
+														<string>2A18DA26-ED32-4AFE-80D6-FB5DCB08B3D1</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3437,7 +3437,7 @@
 																<key>location</key>
 																<string>{907, 494.5}</string>
 																<key>nodeID</key>
-																<string>A1DC444D-29FF-4E93-8E08-E07B54342FD7</string>
+																<string>1FF9A7F4-118D-4989-8A61-ACEB9593581B</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3458,7 +3458,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 same problem as above}</string>
@@ -3478,7 +3478,7 @@
 																<key>location</key>
 																<string>{907, 527.5}</string>
 																<key>nodeID</key>
-																<string>25562945-85AE-4B96-98CC-88ABCF59F578</string>
+																<string>77C766D4-5DBB-4432-9914-B0D0AACADB01</string>
 																<key>strokeColor</key>
 																<string>{0.747, 0.236, 0.101, 1.000}</string>
 																<key>strokeStyle</key>
@@ -3499,7 +3499,7 @@
 																	<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 bonus: static neighbors have to be configured}</string>
@@ -3518,7 +3518,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 point-to-multipoint non-broadcast}</string>
@@ -3537,7 +3537,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 interfaces}</string>
@@ -3556,7 +3556,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 OSPF}</string>
@@ -3576,7 +3576,7 @@
 										<key>location</key>
 										<string>{376, 659}</string>
 										<key>nodeID</key>
-										<string>BECAA33E-1571-4D7D-9DF6-916EDAAA016A</string>
+										<string>0BE2F7ED-B4F8-443C-A159-8E0372EE1131</string>
 										<key>strokeColor</key>
 										<string>{0.747, 0.236, 0.101, 1.000}</string>
 										<key>strokeStyle</key>
@@ -3599,7 +3599,7 @@
 												<key>location</key>
 												<string>{488, 560.5}</string>
 												<key>nodeID</key>
-												<string>52B28753-1C58-4BA6-90B4-56174947E3D3</string>
+												<string>7BED3E99-56C9-4142-85D1-EEA5C7E23780</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -3620,7 +3620,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 one challenge is that BGP may need another IGP for next-hop tunnel addresses}</string>
@@ -3640,7 +3640,7 @@
 												<key>location</key>
 												<string>{488, 634}</string>
 												<key>nodeID</key>
-												<string>F76EC5C4-86A8-40A8-9D5F-8847B3625857</string>
+												<string>E9AA3540-5716-435E-814A-E2CA4E1529D6</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -3663,7 +3663,7 @@
 														<key>location</key>
 														<string>{600, 609.5}</string>
 														<key>nodeID</key>
-														<string>104A79F1-00B8-49BB-8856-7DEBC3D1CD80</string>
+														<string>AB97F7E3-6903-4A66-835B-6D4E8F671FB7</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3684,7 +3684,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 can\'92t use same AS on spoke routers without tricks}</string>
@@ -3704,7 +3704,7 @@
 														<key>location</key>
 														<string>{600, 658.5}</string>
 														<key>nodeID</key>
-														<string>010CDBAB-D1F7-4CA3-80A8-31248AF84AF4</string>
+														<string>EE524F3F-1D78-4600-A922-F308ED0641A0</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3725,7 +3725,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 means manual config (can\'92t be dynamic)}</string>
@@ -3744,7 +3744,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 eBGP}</string>
@@ -3764,7 +3764,7 @@
 												<key>location</key>
 												<string>{488, 724.5}</string>
 												<key>nodeID</key>
-												<string>A38A026B-D624-4453-8550-A2CF80F41BB4</string>
+												<string>E133B75A-B2B3-47EF-BCA5-B3FD3F97A1FC</string>
 												<key>strokeColor</key>
 												<string>{0.747, 0.236, 0.101, 1.000}</string>
 												<key>strokeStyle</key>
@@ -3787,7 +3787,7 @@
 														<key>location</key>
 														<string>{600, 691.5}</string>
 														<key>nodeID</key>
-														<string>B11C03ED-F314-4FC0-AE98-AA0FC5694658</string>
+														<string>4AA125EE-B846-4BC5-971C-5215AC8B3E72</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3808,7 +3808,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works well, flexible}</string>
@@ -3828,7 +3828,7 @@
 														<key>location</key>
 														<string>{600, 724.5}</string>
 														<key>nodeID</key>
-														<string>16D30035-E1BD-468C-A1DC-29D9EB3DBF7E</string>
+														<string>235FC1A5-8EFF-4072-99D2-700993075620</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3849,7 +3849,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 can use dynamic peers}</string>
@@ -3869,7 +3869,7 @@
 														<key>location</key>
 														<string>{600, 757.5}</string>
 														<key>nodeID</key>
-														<string>EFF22D5C-F016-49BB-9EBF-2758F335F638</string>
+														<string>9F1AA02F-D19F-471F-88BA-BAC2D0F3CDA9</string>
 														<key>strokeColor</key>
 														<string>{0.747, 0.236, 0.101, 1.000}</string>
 														<key>strokeStyle</key>
@@ -3890,7 +3890,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub is bgp route reflector}</string>
@@ -3909,7 +3909,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 *iBGP}</string>
@@ -3928,7 +3928,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 BGP}</string>
@@ -3947,7 +3947,7 @@
 									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 routing}</string>
@@ -3966,7 +3966,7 @@
 							<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 Phase 2}</string>
@@ -3986,7 +3986,7 @@
 						<key>location</key>
 						<string>{137, 1095}</string>
 						<key>nodeID</key>
-						<string>5750C152-798A-45B8-A837-38D5F5DF0B43</string>
+						<string>C590B10E-41BA-498B-AABE-51EBC85BE315</string>
 						<key>strokeColor</key>
 						<string>{0.450, 0.541, 0.020, 1.000}</string>
 						<key>strokeStyle</key>
@@ -4009,7 +4009,7 @@
 								<key>location</key>
 								<string>{260, 881}</string>
 								<key>nodeID</key>
-								<string>9BFEC272-F80F-418E-A786-0383A857ED0B</string>
+								<string>40A4550C-AB2A-4E85-A884-80DEFB3CE520</string>
 								<key>strokeColor</key>
 								<string>{0.450, 0.541, 0.020, 1.000}</string>
 								<key>strokeStyle</key>
@@ -4032,7 +4032,7 @@
 										<key>location</key>
 										<string>{424, 807}</string>
 										<key>nodeID</key>
-										<string>18D4DE00-B420-48B2-815C-E530258C3C65</string>
+										<string>ECA95BA4-8FE4-4FE1-9CE9-C6F5F2903D31</string>
 										<key>strokeColor</key>
 										<string>{0.450, 0.541, 0.020, 1.000}</string>
 										<key>strokeStyle</key>
@@ -4055,7 +4055,7 @@
 												<key>location</key>
 												<string>{719, 790.5}</string>
 												<key>nodeID</key>
-												<string>424D3054-F638-4B1A-96FC-D9017A4C5AB2</string>
+												<string>FEEA9C1E-3C73-4998-9E7D-61ED5ABECB7F</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4076,7 +4076,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 hub: ip nhrp redirect}</string>
@@ -4096,7 +4096,7 @@
 												<key>location</key>
 												<string>{719, 823.5}</string>
 												<key>nodeID</key>
-												<string>1CB6B310-AB3F-47A4-ACE3-1159871325E8</string>
+												<string>A599BE72-B9F5-4899-9B86-B225259B78E0</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4117,7 +4117,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spokes: ip nhrp shortcut}</string>
@@ -4136,7 +4136,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 upgrade 2 to 3 with two commands}</string>
@@ -4156,7 +4156,7 @@
 										<key>location</key>
 										<string>{424, 856.5}</string>
 										<key>nodeID</key>
-										<string>F3EEF87F-27A3-4E66-B519-A20CFC54C48B</string>
+										<string>693F4167-8654-453A-9BD7-06736E20FD34</string>
 										<key>strokeColor</key>
 										<string>{0.450, 0.541, 0.020, 1.000}</string>
 										<key>strokeStyle</key>
@@ -4177,7 +4177,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 allows for summary or default routes}</string>
@@ -4197,7 +4197,7 @@
 										<key>location</key>
 										<string>{424, 930.5}</string>
 										<key>nodeID</key>
-										<string>EF8FC8A9-41FE-43AF-83EF-10B8F2EF297B</string>
+										<string>BFE27558-50B8-483D-B90B-3662BC4E9CDF</string>
 										<key>strokeColor</key>
 										<string>{0.450, 0.541, 0.020, 1.000}</string>
 										<key>strokeStyle</key>
@@ -4220,7 +4220,7 @@
 												<key>location</key>
 												<string>{679, 889.5}</string>
 												<key>nodeID</key>
-												<string>154C8EDB-02B8-4979-A7E4-BAAB7714ACAF</string>
+												<string>8DD3AD63-E32A-42BA-8AE3-DCC3F5E11846</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4241,7 +4241,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 same as phase 2, except hub sends traffic indication to sending spoke when summary/default route used}</string>
@@ -4261,7 +4261,7 @@
 												<key>location</key>
 												<string>{679, 955.5}</string>
 												<key>nodeID</key>
-												<string>4E81A18A-50BC-4801-B1C7-5370A0DD9EA2</string>
+												<string>4D84346B-609D-43BB-9197-893F4F01F178</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4282,7 +4282,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 shortcut allows spokes to use NHRP for RIB entries}</string>
@@ -4301,7 +4301,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spoke to spoke nhrp process}</string>
@@ -4320,7 +4320,7 @@
 									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 characteristics}</string>
@@ -4340,7 +4340,7 @@
 								<key>location</key>
 								<string>{260, 1202}</string>
 								<key>nodeID</key>
-								<string>318E1610-B45F-400D-A369-D600905D5ECC</string>
+								<string>321B70DD-4C51-4034-8B43-501C4D7B0F4A</string>
 								<key>strokeColor</key>
 								<string>{0.450, 0.541, 0.020, 1.000}</string>
 								<key>strokeStyle</key>
@@ -4363,7 +4363,7 @@
 										<key>location</key>
 										<string>{376, 1021}</string>
 										<key>nodeID</key>
-										<string>F87A1416-0793-4004-9173-63B2CC9C59F4</string>
+										<string>7C5A0134-452E-475C-B5C3-5816EEA5383B</string>
 										<key>strokeColor</key>
 										<string>{0.450, 0.541, 0.020, 1.000}</string>
 										<key>strokeStyle</key>
@@ -4386,7 +4386,7 @@
 												<key>location</key>
 												<string>{488, 1004.5}</string>
 												<key>nodeID</key>
-												<string>654D67C1-B2E6-412D-8572-A189AEBEB38D</string>
+												<string>C18EB9DA-8A1D-44D8-90EE-D223BE4292BD</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4407,7 +4407,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works well}</string>
@@ -4427,7 +4427,7 @@
 												<key>location</key>
 												<string>{488, 1037.5}</string>
 												<key>nodeID</key>
-												<string>EA9E3F35-CCD5-4CCC-A2BA-40A59A4D69A2</string>
+												<string>A3FF1592-37D1-401D-9784-DFBB43893E92</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4448,7 +4448,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 split horizon can stay enabled}</string>
@@ -4467,7 +4467,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 rip}</string>
@@ -4487,7 +4487,7 @@
 										<key>location</key>
 										<string>{376, 1070.5}</string>
 										<key>nodeID</key>
-										<string>C9F6443D-E1BB-4786-A464-DFBCBFAA036A</string>
+										<string>BEF05B44-0686-4A92-BF86-3CA55DC62FDF</string>
 										<key>strokeColor</key>
 										<string>{0.450, 0.541, 0.020, 1.000}</string>
 										<key>strokeStyle</key>
@@ -4510,7 +4510,7 @@
 												<key>location</key>
 												<string>{488, 1070.5}</string>
 												<key>nodeID</key>
-												<string>0F6839BE-202D-48FB-9788-CD4DA05B8C9C</string>
+												<string>DF44A528-E46D-4BAA-B6FB-C6557BE8F458</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4531,7 +4531,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 same as rip}</string>
@@ -4550,7 +4550,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 eigrp}</string>
@@ -4570,7 +4570,7 @@
 										<key>location</key>
 										<string>{376, 1227}</string>
 										<key>nodeID</key>
-										<string>2736D131-58DF-4AC4-8FE2-3FD61C04C765</string>
+										<string>208F2101-183E-452A-8CA3-15438CD46891</string>
 										<key>strokeColor</key>
 										<string>{0.450, 0.541, 0.020, 1.000}</string>
 										<key>strokeStyle</key>
@@ -4593,7 +4593,7 @@
 												<key>location</key>
 												<string>{488, 1103.5}</string>
 												<key>nodeID</key>
-												<string>FAAB4758-D614-4960-8D0E-A454E20A38FB</string>
+												<string>9796591D-3501-4E19-B71A-73CEE2C55375</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4614,7 +4614,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 not the best, can\'92t use summarization}</string>
@@ -4634,7 +4634,7 @@
 												<key>location</key>
 												<string>{488, 1153}</string>
 												<key>nodeID</key>
-												<string>8621C99E-239B-4655-8DE5-CF7A50E527DF</string>
+												<string>98C26E58-9EEA-4ACB-9892-FA17C3D10DED</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4657,7 +4657,7 @@
 														<key>location</key>
 														<string>{624, 1136.5}</string>
 														<key>nodeID</key>
-														<string>A6D1066F-0EB4-461B-AA65-EE927772731B</string>
+														<string>F9DF3F22-20B1-4ECF-90C1-1B6BC54793CD</string>
 														<key>strokeColor</key>
 														<string>{0.450, 0.541, 0.020, 1.000}</string>
 														<key>strokeStyle</key>
@@ -4678,7 +4678,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works}</string>
@@ -4698,7 +4698,7 @@
 														<key>location</key>
 														<string>{624, 1169.5}</string>
 														<key>nodeID</key>
-														<string>70FBEE1E-B3E4-454E-A973-015BB1432846</string>
+														<string>3AFBE558-F3CA-4E89-9CCB-9C20B1D1EE37</string>
 														<key>strokeColor</key>
 														<string>{0.450, 0.541, 0.020, 1.000}</string>
 														<key>strokeStyle</key>
@@ -4719,7 +4719,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 spokes must be priority 0}</string>
@@ -4738,7 +4738,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 broadcast}</string>
@@ -4758,7 +4758,7 @@
 												<key>location</key>
 												<string>{488, 1202.5}</string>
 												<key>nodeID</key>
-												<string>C2A804F9-B654-4BEE-87E7-A2173C1F3477</string>
+												<string>20C23EA3-040F-4F59-BADC-4EA2BF114787</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4781,7 +4781,7 @@
 														<key>location</key>
 														<string>{647, 1202.5}</string>
 														<key>nodeID</key>
-														<string>396BC46E-76AD-4675-B502-D17462CB1FB2</string>
+														<string>9F82692F-BF30-4EC8-B9EC-8D5932A0683E</string>
 														<key>strokeColor</key>
 														<string>{0.450, 0.541, 0.020, 1.000}</string>
 														<key>strokeStyle</key>
@@ -4802,7 +4802,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 same as above, static neighbors}</string>
@@ -4821,7 +4821,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 nonbroadcast}</string>
@@ -4841,7 +4841,7 @@
 												<key>location</key>
 												<string>{488, 1235.5}</string>
 												<key>nodeID</key>
-												<string>28AD6BBB-5D6E-4DC7-B53B-20FF07D09147</string>
+												<string>2AA7DF8B-2179-4962-9C37-5AC8147F92D6</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4864,7 +4864,7 @@
 														<key>location</key>
 														<string>{647, 1235.5}</string>
 														<key>nodeID</key>
-														<string>586AC9FB-4C92-4674-9A48-2EBED2015AC2</string>
+														<string>F88E6D1B-DC00-4B06-B22D-5751E8CA56F1</string>
 														<key>strokeColor</key>
 														<string>{0.450, 0.541, 0.020, 1.000}</string>
 														<key>strokeStyle</key>
@@ -4885,7 +4885,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 can\'92t use}</string>
@@ -4904,7 +4904,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 point-to-point}</string>
@@ -4924,7 +4924,7 @@
 												<key>location</key>
 												<string>{488, 1293}</string>
 												<key>nodeID</key>
-												<string>47A064A9-9E7A-450C-A442-5B34AC90304C</string>
+												<string>60E18D3C-3BDE-4736-AA0B-D7279DCE9C49</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -4947,7 +4947,7 @@
 														<key>location</key>
 														<string>{682, 1268.5}</string>
 														<key>nodeID</key>
-														<string>F1E84774-36DC-47C5-9AD8-DC9D4C9D8F10</string>
+														<string>288CCA2D-A786-41AF-B8CB-15185C82FFC2</string>
 														<key>strokeColor</key>
 														<string>{0.450, 0.541, 0.020, 1.000}</string>
 														<key>strokeStyle</key>
@@ -4968,7 +4968,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works in phase 3}</string>
@@ -4988,7 +4988,7 @@
 														<key>location</key>
 														<string>{682, 1301.5}</string>
 														<key>nodeID</key>
-														<string>5BEF20E5-8543-42B9-B0ED-5C45FCA7B4C4</string>
+														<string>4F82FD55-AD60-4C5C-898B-2EFD7E5163CF</string>
 														<key>strokeColor</key>
 														<string>{0.450, 0.541, 0.020, 1.000}</string>
 														<key>strokeStyle</key>
@@ -5009,7 +5009,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 next hop not changed in table, but overriden by nhrp, symbolized by %}</string>
@@ -5028,7 +5028,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 *point-to-multipoint}</string>
@@ -5048,7 +5048,7 @@
 												<key>location</key>
 												<string>{488, 1350.5}</string>
 												<key>nodeID</key>
-												<string>FDDA5A6C-7918-4AD9-BDEF-327C02C1B080</string>
+												<string>EC9A46EE-76B6-47FB-A991-7CC984F3E560</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -5071,7 +5071,7 @@
 														<key>location</key>
 														<string>{768, 1350.5}</string>
 														<key>nodeID</key>
-														<string>58DF2DF6-65C2-45B3-9319-EA0C2A3E4AE4</string>
+														<string>B6AE9014-94D9-469F-96E8-31D064696CDD</string>
 														<key>strokeColor</key>
 														<string>{0.450, 0.541, 0.020, 1.000}</string>
 														<key>strokeStyle</key>
@@ -5092,7 +5092,7 @@
 															<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 same as above, static neighbors required}</string>
@@ -5111,7 +5111,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 point-to-multipoint nonbroadcast}</string>
@@ -5130,7 +5130,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 ospf}</string>
@@ -5150,7 +5150,7 @@
 										<key>location</key>
 										<string>{376, 1391.5}</string>
 										<key>nodeID</key>
-										<string>6D777C8B-9BF0-45D5-B798-7C7A2AA47245</string>
+										<string>814A0A7D-3A56-41E7-8476-3FCD1F5767ED</string>
 										<key>strokeColor</key>
 										<string>{0.450, 0.541, 0.020, 1.000}</string>
 										<key>strokeStyle</key>
@@ -5173,7 +5173,7 @@
 												<key>location</key>
 												<string>{488, 1383.5}</string>
 												<key>nodeID</key>
-												<string>9B69AC51-1057-4B2C-8D20-EF413E4A707B</string>
+												<string>AE344DBD-935F-4F74-A037-1ACC4337CAA8</string>
 												<key>strokeColor</key>
 												<string>{0.450, 0.541, 0.020, 1.000}</string>
 												<key>strokeStyle</key>
@@ -5194,7 +5194,7 @@
 													<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 works with eBGP spokes same AS or iBGP, all using a default or summary route}</string>
@@ -5213,7 +5213,7 @@
 											<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 BGP}</string>
@@ -5232,7 +5232,7 @@
 									<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 routing}</string>
@@ -5251,7 +5251,7 @@
 							<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs28 \cf2 Phase 3}</string>
@@ -5270,7 +5270,7 @@
 					<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf100
 {\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red251\green244\blue220;}
-{\*\expandedcolortbl;;\csgenericrgb\c98500\c95800\c86400;}
+{\*\expandedcolortbl;;\csgenericrgb\c98431\c95686\c86275;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
 \f0\fs26 \cf2 DMVPN}</string>
