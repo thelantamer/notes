@@ -54,6 +54,6 @@ net.ipv4.ip_forward=1
 
 sudo sysctl -p /etc/sysctl.conf
 
-#reboot the system, verify with the following command
+#reboot the system, verify with the following command, should show 1 in output
 
-cat /proc/sys/net/ipv4/ip_forward it should shown 1 in the output
+cat /proc/sys/net/ipv4/ip_forward
