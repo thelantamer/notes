@@ -3,7 +3,7 @@ https://d-herrmann.de/2018/04/nat-cloud-in-eve-ng-community-edition/
 
 // Select an IP address subnet to use for DHCP/NAT and update commands below accordingly //
 
-ip address add 10.255.99.0/24 dev pnet9
+ip address add 10.255.99.1/24 dev pnet9
 echo 1 > /proc/sys/net/ipv4/ip_forward
 iptables -t nat -A POSTROUTING -o pnet0 -s 10.255.99.0/24 -j MASQUERADE
 
