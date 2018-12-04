@@ -26,6 +26,7 @@ subnet 10.255.99.0 netmask 255.255.255.0 {
         option broadcast-address 10.255.99.255;
         option subnet-mask 255.255.255.0;
         option routers 10.255.99.1;
+}
 
 systemctl start isc-dhcp-server
 systemctl enable isc-dhcp-server
