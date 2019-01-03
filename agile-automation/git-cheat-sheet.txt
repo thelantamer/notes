@@ -1,0 +1,5 @@
+# remove all local commits, completely reset to master commit
+git reset --hard origin/master
+
+# commit and comment in one line
+git commit -a -m "commit comment"
