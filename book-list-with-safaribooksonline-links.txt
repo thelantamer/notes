@@ -1,0 +1,25 @@
+# Cover-to-cover
+ Internetworking with TCP/IP Vol I
+    [paper]
+ TCP/IP Illustrated, Volume
+    https://www.safaribooksonline.com/library/view/tcpip-illustrated-volume/9780132808200/
+ Interconnections: 2nd Edition. Bridges, Routers, Switches, and Internetworking Protocols
+    https://www.safaribooksonline.com/library/view/interconnections-bridges-routers/0201634481/
+
+# Topic-specific books referenced
+ Practical BGP
+    https://www.safaribooksonline.com/library/view/practical-bgp/0321127005/
+ MPLS Configuration on Cisco IOS Software
+    https://www.safaribooksonline.com/library/view/mpls-configuration-on/1587051990/
+ IPSEC VPNs	IPsec Virtual Private Network Fundamentals
+    https://www.safaribooksonline.com/library/view/ipsec-virtual-private/1587052075/
+ Interdomain Multicast Routing: Practical Juniper Networks and Cisco Systems Solutions
+    https://www.safaribooksonline.com/library/view/interdomain-multicast-routing/0201746123/
+ 
+# Official certification guides
+ CCIE Routing and Switching v5.0 Official Cert Guide, Volume 1, Fifth Edition 
+    https://www.safaribooksonline.com/library/view/ccie-routing-and/9780133481617/
+ CCIE Routing and Switching v5.0 Official Cert Guide, Volume 2, Fifth Edition
+    https://www.safaribooksonline.com/library/view/ccie-routing-and/9780133590890/
+ CCIE and CCDE Evolving Technologies Study Guide, First Edition
+    https://www.safaribooksonline.com/library/view/ccie-and-ccde/9780135170151/
