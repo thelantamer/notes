@@ -9,5 +9,10 @@ https://github.com/ciphergoesswiping/CCIE-Stuff
 https://github.com/OfWolfAndMan
 https://github.com/solry/ine-provision
 
+FLASH CARDS:
 Jedidiah Casey's references for written blueprint study:
 https://docs.google.com/document/d/1I6h4BrO29kyfrXb9olnE7Y8DEDlyNAZ486_eBlF7wsE/edit
+
+SHORTCUTS:
+Combined blueprint checklist:
+http://bit.ly/2RlmdMx

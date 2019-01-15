@@ -1,0 +1,25 @@
+### TFTPD setup on Linux VM for labbing ###
+
+# install tftpd-hpa server
+sudo apt install tftpd-hpa
+
+# start service for configurations
+sudo service tftpd-hpa start
+
+# add all access to tftp directory
+sudo chown -R tftp /var/lib/tftpboot
+sudo chmod -R 777 /var/lib/tftpboot
+
+# edit tftpd-hpa options file to allow file writes
+sudo nano /etc/default/tftpd-hpa
+    TFTP_OPTIONS="--secure -c"
+
+# restart service and test!
+sudo service tftpd-hpa restart
+
+# enable on system boot
+sudo /lib/systemd/systemd-sysv-install enable tftpd-hpa
+
+TIPS:
+# to check the service status (courtesy: STARWOLF)
+sudo service tftpd-hpa status

@@ -58,3 +58,11 @@ sudo sysctl -p /etc/sysctl.conf
 #reboot the system, verify with the following command, should show 1 in output
 
 cat /proc/sys/net/ipv4/ip_forward
+
+
+# You may need to delay the start of the DHCP service, to wait until eve-ng can create the interface it uses.
+# create a file called /etc/systemd/system/isc-dhcp-server.timer
+
+Add the following text to the file:
+[Timer]
+OnBootSec=2min
