@@ -1,24 +1,16 @@
+!
 conf t
 ipv6 unicast-routing
 !
 cdp run
 !
+
+no ip domain lookup
+ip host linux 1.1.1.100
+file prompt quiet
+
 int gi0/1
 no shut
-
-crypto isakmp policy 10
- encr aes
- authentication pre-share
- group 5
- hash md5
-! 
-crypto isakmp key cisco address 0.0.0.0
-!
-crypto ipsec transform-set ESP_AES_SHA esp-aes esp-sha-hmac
-!
-crypto ipsec profile DMVPN_PROFILE
- set transform-set ESP_AES_SHA
-!
 !
 line con 0
  exec-timeout 0 0

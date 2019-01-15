@@ -1,0 +1,70 @@
+### grep
+
+#search a file and copy results, along with 10 lines after text
+grep -E 'mytext' myfile.txt -A 10 > newfile.txt
+
+#grep AND operator
+grep -E 'mytex1.*mytext2' myfile.txt
+
+#grep OR operator
+grep -E 'mytex1|mytext2' myfile.txt
+
+#grep and tail
+tail filename.txt | grep -E 'mytex1|mytext2'
+
+
+
+
+### sed
+-i 	interactive, edit files in place
+-e 	use an expression
+/ 	special character follows
+& 	search value, can be re-printed, for example
+
+#search and remove entire line where found
+sed -ie ‘/yourtext/d’ file
+
+#search and remove entire line, + 10 more lines below
+sed -ie '/yourtext/,+10d' file
+
+#replace text with carriage return
+sed -ie 's/yourtext/\n/g' build-ltm-virtuals.yaml
+
+#insert text at beginning of each line
+sed -ie 's/^/ thistext/' file
+
+#insert text at end of each line
+sed -ie 's/.*/& nextext/' file
+
+#search with regexp (regular expression)
+  below searches for port numbers
+  /+ is 'repeats any number of times'
+  /NEWLINE& adds text NEWLINE along with the search result '&'
+sed -ie 's/:[0-9]\+/NEWLINE&/g' build-ltm-virtuals.yaml
+
+#search and replace with line break
+sed -ie 's/ profiles add/\n/g' build-ltm-virtuals.yaml
+
+#replace text and rest of text on a line
+sed -ie 's/least-connections.*$//' dmz-pools.txt
+
+
+
+
+### awk
+
+#remove all blank lines from a file
+awk 'NF' myfile.txt > tmp && mv tmp myfile.txt
+
+#remove all duplicate lines, without sorting
+awk '!x[$0]++' myfile.txt > tmp && mv tmp myfile.txt
+
+
+
+### uniq & sort
+
+#sort a file, then use awk to remove duplicate lines
+sort file.txt > tmp && uniq tmp > file.txt && rm tmp
+
+#change all text to lowercase
+cat file.txt | awk '{print tolower($0)}' > tmp && mv tmp file.txt
