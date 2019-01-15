@@ -23,5 +23,8 @@ line vty 0 4
  no login
 !
 end
-
+!
 wr mem
+!
+!
+copy run tftp://linux/base/r
