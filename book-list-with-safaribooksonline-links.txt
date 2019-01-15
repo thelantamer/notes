@@ -1,4 +1,6 @@
-# Cover-to-cover
+### BOOKS I HAVE USED ####
+
+# Read cover-to-cover
  Internetworking with TCP/IP Vol I
     [paper]
  TCP/IP Illustrated, Volume
@@ -6,7 +8,7 @@
  Interconnections: 2nd Edition. Bridges, Routers, Switches, and Internetworking Protocols
     https://www.safaribooksonline.com/library/view/interconnections-bridges-routers/0201634481/
 
-# Topic-specific books referenced
+# Chapter reviews by topic
  Practical BGP
     https://www.safaribooksonline.com/library/view/practical-bgp/0321127005/
  MPLS Configuration on Cisco IOS Software
@@ -23,3 +25,8 @@
     https://www.safaribooksonline.com/library/view/ccie-routing-and/9780133590890/
  CCIE and CCDE Evolving Technologies Study Guide, First Edition
     https://www.safaribooksonline.com/library/view/ccie-and-ccde/9780135170151/
+
+### BOOKS I MAY USE ###
+
+Safaribooksonline Playlist:
+https://www.safaribooksonline.com/playlists/509550a5-ea20-41c8-be2f-c26b51c171a0
