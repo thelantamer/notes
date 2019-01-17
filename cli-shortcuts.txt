@@ -1,0 +1,42 @@
+:: KEYBOARD SHORTCUTS ::
+CTRL+K - erase from cursor to end of line
+CTRL+X - erase from cursor to beginning of line
+CTRL+W - erase word
+ESC+F - forward one word
+ESC+B - backward one word
+
+:: PRACTICE THESE ::
+show ip alias
+show crypto ipsec sa | i ident|cap
+
+:: TCL ::
+*** ping all loopbacks ***
+tclsh
+foreach VAR {
+150.1.1.1
+150.1.2.2
+150.1.3.3
+150.1.4.4
+150.1.5.5
+150.1.6.6
+150.1.7.7
+150.1.8.8
+150.1.9.9
+150.1.10.10
+} { ping $VAR }
+
+
+*** blank and reload router in VIRL ***
+tclsh
+puts [ open "flash:blank.cfg" w+] {
+version 15.6
+!
+end
+}
+tclquit
+!
+configure replace flash:blank.cfg force
+!
+
+[after the reload, be sure to remove blank.cfg in VIRL]
+del flash:blank.cfg
