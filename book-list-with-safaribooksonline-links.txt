@@ -26,7 +26,7 @@
  CCIE and CCDE Evolving Technologies Study Guide, First Edition
     https://www.safaribooksonline.com/library/view/ccie-and-ccde/9780135170151/
 
-### BOOKS I MAY USE ###
+### SAFARIBOOKS PLAYLIST FOR SPECIFIC TOPICS ###
 
 Safaribooksonline Playlist:
 https://www.safaribooksonline.com/playlists/509550a5-ea20-41c8-be2f-c26b51c171a0

@@ -1,0 +1,52 @@
+/// CISCO DOCS 'doc cd' ///
+        Pattern
+        # Technology
+        Link
+        Menu navigation clicks
+
+# Support page:
+https://www.cisco.com/c/en/us/support/all-products.html
+
+    Support and Downloads, All Products
+
+# Technologies:
+https://www.cisco.com/c/en/us/tech/index.html
+
+    Support and Downloads, All Products / Networking Technologies
+
+# Ethertypes:
+https://www.cisco.com/c/en/us/td/docs/wireless/access_point/15_2_4_JA/configuration/guide/scg15-2-4_book/scg15-2-4-JA-appA-protfilters.html
+
+    Support and Downloads, All Products / Wireless / Aironet 1040 Series Access Points / Configuration Guides / Cisco IOS Software Configuration Guide for Cisco Aironet Access Points for Cisco IOS Releases 15.2(4)JA / Appendix A - Protocol Filters
+
+# Port and Protocol Numbers:
+https://www.cisco.com/c/en/us/td/docs/security/asa/asa910/configuration/general/asa-910-general-config/ref-ports.html
+
+    Support / Product Support / Security / Cisco Adaptive Security Appliance (ASA) Software/ ASA 9.10 / CLI Book 1: General Operations CLI Configuration / Reference ^ Addresses, Protocols and Ports
+
+# Regular Expressions
+
+/// TOPOLOGY FILES ///
+INE topology and initial configuration files for eve-ng:
+https://ipnet.xyz/2018/06/ines-ccie-rs-v5-topology-for-eve-ng/
+
+/// PACKET CAPTURES ///
+http://www.netresec.com/?page=PcapFiles
+
+
+/// REPOS ///
+https://github.com/thelantamer
+https://github.com/hosseinoliabak/cisco
+https://github.com/Harsbo/ccie-lab-tools
+https://github.com/ciphergoesswiping/CCIE-Stuff
+https://github.com/OfWolfAndMan
+https://github.com/solry/ine-provision
+
+/// FLASH CARDS ///
+Jedidiah Casey's references for written blueprint study:
+https://docs.google.com/document/d/1I6h4BrO29kyfrXb9olnE7Y8DEDlyNAZ486_eBlF7wsE/edit
+
+
+/// SHORTCUTS ///
+Combined blueprint checklist:
+http://bit.ly/2RlmdMx
