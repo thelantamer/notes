@@ -1,6 +1,11 @@
 GNU Linux Cheat Sheet
 Most references are for the GNU/Linux bash shell.  BSD cheat sheet coming soon.
 
+# copy ssh keys for auto login
+ssh destuser@desthost mkdir -p .ssh
+cat ~/.ssh/id_rsa.pub | ssh destuser@desthost 'cat >> .ssh/authorized_keys'
+
+
 REMOTE DESKTOP (Windows host)
 rdesktop -u username -d domainname -g 1152x1008 -p yourpassword -a 16 -r disk:fedora=/home/username/ -r clipboard:CLIPBOARD -z -x b -k en-us hostname &
 specify screen size, share local folder and clipoboard, run as background task, no window decorations
@@ -12,8 +17,8 @@ RSYNC
 rsync -av curfolder destfolder	sort by size 
 
 LS SHORTCUTS
-ls -alSh 	sort by size 
-ls -d */ 	display folders
+ls -alSh sort by size 
+ls -d */ display folders
 
 MAKE .ISO IMAGE
 sudo genisoimage -o image.iso /media/CDTitle

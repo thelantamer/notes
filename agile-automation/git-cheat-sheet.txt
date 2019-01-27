@@ -3,3 +3,9 @@ git reset --hard origin/master
 
 # commit and comment in one line
 git commit -a -m "commit comment"
+
+# add longer login cache timeout
+git config --global credential.helper 'cache --timeout=28800'
+
+# git add username for https login
+git config remote.origin.url https://thelantamer@github.com/thelantamer/notes.git
