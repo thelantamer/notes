@@ -1,0 +1,191 @@
+#isr - switch module access
+service-module GigabitEthernet 1/0 session
+
+#tcl script - pings
+tclsh
+foreach VAR {
+10.0.0.1
+10.0.0.2
+10.0.0.5
+} { ping $VAR }
+tclquit
+
+# ISR switch stack info
+session switch 3
+show onboard switch 3 uptime detail
+
+#faster tftp transfers
+ip tftp blocksize 8192
+
+#show vpn users active
+show vpn-sessiondb anyconnect
+
+#show processor summary
+show proc cpu | i five
+
+#debug HSRP
+debug standby terse
+
+#view netflow
+show ip cache flow
+
+#cef adjacency table (L2 next-hop)
+show adjacency
+
+#cef tcam contents
+show platform
+
+#Catalyst 6500
+show mls cef
+
+#show specific routes, longer prefixes
+show ip route 172.16.0.0 255.255.0.0 longer-prefixes
+
+#tee
+show tech-support | tee tftp://192.168.1.50/tac.txt
+
+#capture packets cisco router
+monitor capture buffer BUFFER_NAME
+monitor capture point ip cef POINT_NAME gig 0/1 both
+monitor capture point associate POINT_NAME BUFFER_NAME
+monitor capture point start POINT_NAME
+monitor capture point stop POINT_NAME
+monitor capture buffer BUFFER_NAME export tftp://<ip address>/<name.pcap>
+
+#catOS power
+show platform ilpower system
+show platform ilpower port Gi4/0/13
+
+# asa - top talkers
+sh ip flow top-talkers 
+
+#backup using tftp
+copy startup-config tftp://192.168.1.10/2011-12-12.1001.ciscoasa-startup-config.rtf
+
+#packet captures (asa)
+access-list ACL_CAP_TEST permit icmp any host 107.7.7.7
+capture CAP_OUT access-list ACL_CAP_TEST outside
+show capture CAP_OUT
+
+#download to PC for wireshark, etc
+https://[<pix_ip>/<asa_ip>]/capture/CAP_OUT/pcap
+
+#undebug all, abbreviated
+u al
+
+#view pre-shared VPN keys
+more system:running-config
+
+#disable annoying console prompts (lab or staging only, not for production)
+line vty 0 15
+no logging syn
+exec-timeout 0 0
+
+#send BREAK to keyboard (PC, linux)
+normal break					Ctrl +[shift]F6
+interrupt ping, dns resolve:			Ctrl +[shift]F6 (2x)
+interrupt telnet session			Ctrl +[shift]F6, then x
+disconnect from service module (ISR)	Ctrl +[shift]F6, then x
+
+#send BREAK to keyboard (Zterm on Mac)
+normal break					Ctrl +b
+
+#connect to separate management module (i.e. wireless), ISR
+service wlan-ap 0 session
+
+#upgrade AP from autonomous to lwapp from CLI 
+[telnet to AP, user/pass Cisco/Cisco, enable Cisco
+[1140 AP]
+AP1# archive download-sw /overwrite /reload tftp://190.25.5.71/c1140-rcvk9w8-tar.124-21a.JA2.tar
+
+#reference: http://news.mali77.com/index.php/2011/10/upgrade-autonomous-to-lwap-cisco-access-points-via-cli/
+[1130 AP]
+
+AP1# tar -xtract tftp://10.210.61.81/c1130-k9w8-tar.124-25e.JAP10.tar flash:
+
+	reference: https://supportforums.cisco.com/document/56156/access-point-rommon-recovery-ap-prompt-recovery-example
+
+
+
+Configuration Register settings, common:
+0x2102 (default)	startup file:	NVRAM	boot image:	Flash
+0x2142		startup file:	ignored		
+0x2100		boot into ROMMON mode
+syslog server configuration
+Router/Switch
+RT1(config)# logging host 192.168.1.21
+RT1(config)# logging trap warnings
+Router, ISR
+RT1(config)# logging on
+RT1(config)# logging host 192.168.1.21
+RT1(config)# logging source-interface GigabitEthernet0/0
+RT1(config)# logging trap warnings
+
+ASA
+FW1(config)# logging enable
+SW1(config)# logging host 192.168.1.21
+FW1(config)# logging trap warnings
+FW1(config)# logging asdm warnings
+redirect - show tech support
+hostname(config)# show tech-support | redirect tftp://<ip address of tftp server>//<filename>.txt 
+enable ssh
+hostname(config)# conf t
+hostname(config)# username admin priv 15 password a
+hostname(config)# ip domain-name campus.local
+hostname(config)# no ip domain-lookup
+hostname(config)# line vty 0 15
+hostname(config)# transport input telnet ssh
+show trunking status, specific interface
+SW1# show interface Gi0/1 trunk
+SW1# show interface Gi0/1 status
+SW1# show vlan id 1
+ASA - reset factory default
+FW1(config)# configure factory-default
+
+ASA - clear configurations
+
+FW1(config)# clear configure interface Ethernet0/0
+FW1(config)# clear configure isakmp policy
+
+ISR - console log and debug
+
+RT1# show logging | redirect tftp://10.65.10.45/2013-01-22-1145-sma1rt1.rtf
+RT1# undebug all
+RT1# conf t
+RT1(config)# logging console on
+RT1(config)# logging on
+RT1# terminal monitor
+RT1# debug crypto ipsec sa
+
+- turn off - 
+
+RT1# terminal no monitor
+
+#VPN tunnel debugging, detailed
+debug crypto isakmp 127
+debug crypto ipsec 127
+show logging | redirect tftp://192.168.1.222/logging.txt
+
+#ASA - CLI command results in browser
+show running-config
+https://3.3.3.3/admin/exec/show%20running-config/show%20running-config%20asdm
+
+#show startup-config
+https://3.3.3.3/admin/exec/show%20startup-config/show%20startup-config%20asdm
+
+#show ver
+https://3.3.3.3/admin/exec/show%20ver
+
+#show nat
+https://3.3.3.3/admin/exec/show%20nat
+
+#show access-list
+https://3.3.3.3/admin/exec/show%20access-list
+
+#HIGH CPU UTILIZATION
+[below are CPU-safe on Catalyst 4500]
+debug platform packet all receive buffer
+show platform cpu packet buffered
+
+#Embedded switch module access
+service-module gigabitEthernet 1/0 session
