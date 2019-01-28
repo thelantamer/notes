@@ -1,5 +1,7 @@
-GNU Linux Cheat Sheet
-Most references are for the GNU/Linux bash shell.  BSD cheat sheet coming soon.
+### GNU Linux Cheat Sheet ###
+
+# preferred bash prompt
+export PS1="\[\033[0;32m\]\u@\h:\[\033[36m\]\W\[\033[0m\] \$ "
 
 # copy ssh keys for auto login
 ssh destuser@desthost mkdir -p .ssh
