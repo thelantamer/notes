@@ -1,0 +1,8 @@
+# subscription context
+az account list --output table
+az account set --subscription "My Demos"
+
+# application-gateway
+az network application-gateway list --output table [--resource-group] [--subscription]
+
+az network application-gateway show --n APPGATEWAYNAME -g RSG1
