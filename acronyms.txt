@@ -45,3 +45,4 @@ core- constrained restful environments
 m2m- machine to machine
 afi- address family indicator
 safi- subsequent address family indicator
+isatap- intra-site automatic tunnel addressing protocol
