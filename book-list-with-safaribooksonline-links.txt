@@ -9,15 +9,17 @@
     https://www.safaribooksonline.com/library/view/interconnections-bridges-routers/0201634481/
 
 # Chapter reviews by topic
- Practical BGP
-    https://www.safaribooksonline.com/library/view/practical-bgp/0321127005/
- MPLS Configuration on Cisco IOS Software
-    https://www.safaribooksonline.com/library/view/mpls-configuration-on/1587051990/
- IPSEC VPNs	IPsec Virtual Private Network Fundamentals
-    https://www.safaribooksonline.com/library/view/ipsec-virtual-private/1587052075/
  Interdomain Multicast Routing: Practical Juniper Networks and Cisco Systems Solutions
     https://www.safaribooksonline.com/library/view/interdomain-multicast-routing/0201746123/
- 
+ IPSEC VPNs	IPsec Virtual Private Network Fundamentals
+    https://www.safaribooksonline.com/library/view/ipsec-virtual-private/1587052075/
+ MPLS Configuration on Cisco IOS Software
+    https://www.safaribooksonline.com/library/view/mpls-configuration-on/1587051990/
+ Practical BGP
+    https://www.safaribooksonline.com/library/view/practical-bgp/0321127005/
+ QoS Exam Certification Guide
+    https://www.safaribooksonline.com/library/view/cisco-qos-exam/1587201240/cover.html
+    
 # Official certification guides
  CCIE Routing and Switching v5.0 Official Cert Guide, Volume 1, Fifth Edition 
     https://www.safaribooksonline.com/library/view/ccie-routing-and/9780133481617/
