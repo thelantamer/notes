@@ -1,0 +1,8 @@
+# Azure Az
+Connect-AzAccount
+Set-AzContext -subscription sub_evicore_nonprod
+
+# AzureRM
+Connect-AzureRmAccount
+Set-AzureRmContext -Subscription subname
+Test-AzureRmResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json

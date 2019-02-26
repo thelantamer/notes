@@ -1,5 +1,12 @@
 ### GNU Linux Cheat Sheet ###
 
+
+# special permissions for ssh keys
+chmod 600 keyfile.pub
+
+# chown for user and group
+sudo chown myuseracct:myuseracct filename
+
 # preferred bash prompt
 export PS1="\[\033[0;32m\]\u@\h:\[\033[36m\]\W\[\033[0m\] \$ "
 

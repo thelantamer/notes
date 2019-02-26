@@ -4,6 +4,10 @@ git reset --hard origin/master
 # commit and comment in one line
 git commit -a -m "commit comment"
 
+# revert to a previous commit
+git reset --hard <commit-hash>
+git reset --hard b3fdab32daaec588378e8a0bb5b192e2e9b80f4a
+
 # add longer login cache timeout
 git config --global credential.helper 'cache --timeout=28800'
 
