@@ -1,8 +1,8 @@
 / COMMON MISTAKES /
 - Not reading in full sentences (don't try to speed read instructions)
 
-/ FOLLOWUP / - good to ping all direct-connect neighbors at start?
-List of problematic help documents
+/ FOLLOWUP / - good to ping all direct-connect neighbors at start
+Try to locate cisco docs for:
 - pppoe configuration
 - ppp chap
 
@@ -10,12 +10,28 @@ lab strategy for configuration section:
 - open notepad and save new file to desktop
 - begin reading instructions
 - stategize the config sections, write down overall tasks and priority at top of page
+- complete layer 2
+- ensure basic l3 connectivity corresponds to diagram
+    ping broadcast address order
+    ping in blocks
 - start first section
-- when referencing a diagram, take extra time to confirm located the correct router/interface/link etc.
 
 guidelines
 - one notepad file for all configs
-# - add devices to file as they are being edited, not in any other order
 - progressively add configs, don't do edits above unless you find a fault
+    conf t
+    end
 - plenty of white space between device configs!
 - don't copy for paste until you have the right window selected! (eve-ng)
+
+verifications
+- show etherchannel summary
+- show int trunk
+- show vtp status
+- show vlan brief
+- show spanning-tree vlan
+- show pppoe session
+- show ip eigrp neighbors
+- show ip route eigrp
+- show ip eigrp interface detail x
+
