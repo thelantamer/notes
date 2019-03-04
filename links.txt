@@ -24,7 +24,6 @@ https://www.cisco.com/c/en/us/td/docs/security/asa/asa910/configuration/general/
 
     Support / Product Support / Security / Cisco Adaptive Security Appliance (ASA) Software/ ASA 9.10 / CLI Book 1: General Operations CLI Configuration / Reference ^ Addresses, Protocols and Ports
 
-# Regular Expressions
 
 /// TOPOLOGY FILES ///
 INE topology and initial configuration files for eve-ng:
