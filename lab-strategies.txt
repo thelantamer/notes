@@ -12,7 +12,7 @@ lab strategy for configuration section:
 - stategize the config sections, write down overall tasks and priority at top of page
 - complete layer 2
 - ensure basic l3 connectivity corresponds to diagram
-    ping broadcast address order
+    ping broadcast address (255.255.255.255)
     ping in blocks
 - start first section
 
