@@ -1,0 +1,21 @@
+#CLIENT
+interface Gi0/1
+no ip address
+pppoe-client dial-pool-number 1
+!
+interface dialer 1
+encapsulation ppp
+dialer pool 1
+ip address x.x.x.x x.x.x.x
+
+#SERVER
+interface Gi0/1
+no ip address
+pppoe enable group global
+!
+bba-group pppoe global
+virtual-template 1
+!
+interface virtual-template 1
+ip address x.x.x.x x.x.x.x
+!
