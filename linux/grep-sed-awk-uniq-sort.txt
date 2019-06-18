@@ -68,3 +68,8 @@ sort file.txt > tmp && uniq tmp > file.txt && rm tmp
 
 #change all text to lowercase
 cat file.txt | awk '{print tolower($0)}' > tmp && mv tmp file.txt
+
+### tr
+
+#remove white space from a file, excluding new line characters
+cat file.txt | tr -d " \t\r" > file.txt

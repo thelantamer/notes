@@ -1,6 +1,6 @@
 # Azure Az
 Connect-AzAccount
-Set-AzContext -subscription sub_evicore_nonprod
+Set-AzContext -subscription NEWSUBNAME
 
 # AzureRM
 Connect-AzureRmAccount
