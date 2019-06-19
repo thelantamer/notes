@@ -1,30 +1,34 @@
 / COMMON MISTAKES /
-- Not reading in full sentences (don't try to speed read instructions)
+- Not reading instructions in full sentences (don't try to speed read instructions)
 
 / FOLLOWUP / - good to ping all direct-connect neighbors at start
-Try to locate cisco docs for:
-- pppoe configuration
-- ppp chap
 
-lab strategy for configuration section:
+starting strategy
 - open notepad and save new file to desktop
 - begin reading instructions
-- stategize the config sections, write down overall tasks and priority at top of page
+- write down overall tasks and config order at top of page
+
+general building strategy - L2/L3
+- some may already be built!
 - complete layer 2
+- complete layer 3 addressing
+- no shut on SVIs
 - ensure basic l3 connectivity corresponds to diagram
     ping broadcast address (255.255.255.255)
     ping in blocks
-- start first section
+- continue down build list in order
 
 guidelines
 - one notepad file for all configs
-- progressively add configs, don't do edits above unless you find a fault
+- progressively add configs, don't do edits outside notepad above unless you find a fault
     conf t
     end
-- plenty of white space between device configs!
-- don't copy for paste until you have the right window selected! (eve-ng)
+- plenty of white space between device configs in master file
+- ensure correct device selected for copy/paste!
+- spare use of ! (except remarks)
+- when using ! plenty of carriage returns afterwards
 
-verifications
+common verification commands
 - show etherchannel summary
 - show int trunk
 - show vtp status
