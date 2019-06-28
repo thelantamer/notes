@@ -1,26 +1,46 @@
+/ SOURCES /
+Tim McConnaughy: https://carpe-dmvpn.com
+
+Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section/
+
+**** TSHOOT ****
+Determine approximate number of points needed to pass
+5 minutes per task, extend 5 as needed, then take notes and move on
+Likely going to borrow time from config
+
+**** CONFIG ****
+
 / COMMON MISTAKES /
 - Not reading instructions in full sentences (don't try to speed read instructions)
 - avoid rabbit holes
 
-/ FOLLOWUP / - good to ping all direct-connect neighbors at start
+/ STARTUP /
+- on paper
+    [far-left column is tasks]
+    [remaining columns are sites]
 
-starting strategy
-- open notepad and save new file to desktop
 - begin reading instructions
-- write down overall tasks and config order at top of page
+    don't worry about l2
+    fill out task numbers, mark verification tasks
+    check sections
+
+- launch console to determine 'putty screen'
+- align other windows, one monitor for diagram
+- other monitor layout:
+    putty sessions  [top left]  task lists [top right]
+    notepads [bottom]
+
 - careful of terms
     must ONLY receive a default route
     should never become a transit device (stub routing)
-
+    no TCNs are sent (portfast)
+    ibgp sessions can withstand link failure (loopbacks, route reflectors)
 
 general building strategy - L2/L3
 - some may already be built!
 - complete layer 2
-- complete layer 3 addressing
+- check direct neighbor reachability (ping 255.255.255.255, in blocks)
 - no shut on SVIs
-- ensure basic l3 connectivity corresponds to diagram
-    ping broadcast address (255.255.255.255)
-    ping in blocks
 - continue down build list in order
 
 guidelines
@@ -29,8 +49,3 @@ guidelines
 workstation
 - shift+insert for paste in putty
 - cascading windows
-- window organization plan
-    work monitor            diagram monitor
-    putty on left
-    task list on right
-    notepads on bottom

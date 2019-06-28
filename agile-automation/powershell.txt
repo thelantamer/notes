@@ -5,4 +5,12 @@ Set-AzContext -subscription NEWSUBNAME
 # AzureRM
 Connect-AzureRmAccount
 Set-AzureRmContext -Subscription subname
+
+# test deploy
 Test-AzureRmResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
+
+# deploy
+New-AzureRmResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
+
+# continuation for deployment with detail
+$ErrorActionPreference = 'Continue'
