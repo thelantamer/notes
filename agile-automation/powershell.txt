@@ -14,3 +14,12 @@ New-AzureRmResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile temp
 
 # continuation for deployment with detail
 $ErrorActionPreference = 'Continue'
+
+# RSG deployment with debug
+New-AzResourceGroupDeployment -ResourceGroupName gateway1 -TemplateFile template.json -TemplateParameterFile .\ut1\parameters.json -DeploymentDebugLogLevel All -Name 2019-06-28.1644.ut1-test-deploy
+
+# RSG deployment debug request view
+(Get-AzResourceGroupDeploymentOperation -DeploymentName 2019-06-28.1644.ut1-test-deploy -ResourceGroupName gatewayname).Properties.request | ConvertTo-Json
+
+# RSG deployment debug response view
+(Get-AzResourceGroupDeploymentOperation -DeploymentName 2019-06-28.1644.ut1-test-deploy -ResourceGroupName gatewayname).Properties.response | ConvertTo-Json
