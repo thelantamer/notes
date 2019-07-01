@@ -1,0 +1,57 @@
+#############
+### PUTTY ###
+
+- Cascade putty windows
+- SHIFT+INSERT  # paste
+
+# CLEARING TEXT
+- CTRL+W    # clear word before cursor
+- ALT+D     # clear word after cursor
+- CTRL+U    # clear line before cursor
+- CTRL+K    # clear line after cursor
+- CTRL+K, CTRL+U    # clear entire line
+- CTRL+Y    # yank, paste from clear buffer
+
+# CURSOR MOVEMENT
+- ALT+F     # cursor forward one word
+- ALT+B     # cursor back one word
+- CTRL+E    # cursor end of line
+- CTRL+D    # cursor start of line
+- CTRL+A    # Go to beginning of line
+- CTRL+E    # Go to end of line
+- CTRL+R    # refresh, new line with same command
+
+# HISTORY
+- CTRL+P    # previous command
+- CTRL+N    # next command
+
+# OTHERS
+- CTRL+C    # exit from config mode
+
+##############
+### CHROME ###
+
+- ALT+D, ALT+ENTER      open current page new tab
+
+############
+### GREP ###
+
+\. - absolute reference
+show ip route | i 10\.4
+() - gro
+(.*) - any number of spaces except new line
+(+) - any number of spaces
+show bgp ipv4 u | i 0( +)100
+
+********
+evaluate
+
+show parser dump
+sho ip int br | ex un
+—more—
+/[search term, first line that contains term]
++[search term, any line that contains term]
+show run linenum
+show cdp entry * protocol
+show cdp neigh detail | include Device|IP
+include (1|3)

@@ -1,3 +1,0 @@
-- Paste: Use shift+insert (default setting)
-- Cascade windows
-- 
