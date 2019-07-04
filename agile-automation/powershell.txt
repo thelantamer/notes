@@ -23,3 +23,7 @@ New-AzResourceGroupDeployment -ResourceGroupName gateway1 -TemplateFile template
 
 # RSG deployment debug response view
 (Get-AzResourceGroupDeploymentOperation -DeploymentName 2019-06-28.1644.ut1-test-deploy -ResourceGroupName gatewayname).Properties.response | ConvertTo-Json
+
+# secure string for pfx password
+$passwd = ConvertTo-SecureString  <certificate file password> -AsPlainText -Force 
+$cert = New-AzApplicationGatewaySSLCertificate -Name testcertificate -CertificateFile c:\admin\mycert.pfx -Password $passwd
