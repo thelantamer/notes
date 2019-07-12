@@ -30,18 +30,28 @@ Likely going to borrow time from config
     putty sessions  [top left]  task lists [top right]
     notepads [bottom]
 
-- careful of terms
+/ READING /
+
+- review diagram and addressing scheme
+- sneaky wording
+    don't configure network type on SPOKES
     must ONLY receive a default route
     should never become a transit device (stub routing)
     no TCNs are sent (portfast)
     ibgp sessions can withstand link failure (loopbacks, route reflectors)
+- for ospf, where is backbone?
+- care of ospf area boundaries
+
+/ BUILDING /
 
 general building strategy - L2/L3
-- some may already be built!
 - complete layer 2
 - check direct neighbor reachability (ping 255.255.255.255, in blocks)
-- no shut on SVIs
-- continue down build list in order
+- no shut on switch SVIs
+- prior to redistribution, save config!
+- all redistribution config in notepad
+- redistributing connected, careful of 'metric-type' and clauses
+
 
 guidelines
 - consolidate work when connecting into devices
@@ -49,3 +59,4 @@ guidelines
 workstation
 - shift+insert for paste in putty
 - cascading windows
+- mouse-click on putty windows bar at top, not in window
