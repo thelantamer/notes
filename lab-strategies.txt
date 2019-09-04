@@ -3,6 +3,17 @@ Tim McConnaughy: https://carpe-dmvpn.com
 
 Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section/
 
+
+**** DIAG ****
+1. open (and keep open) exam diagram and review
+    routing protocols
+    device/interface types
+2. email exchange
+    tells problem to be resolved
+3. review range of possible answers
+
+
+
 **** TSHOOT ****
 Determine approximate number of points needed to pass
 5 minutes per task, extend 5 as needed, then take notes and move on
@@ -13,6 +24,9 @@ Likely going to borrow time from config
 / COMMON MISTAKES /
 - Not reading instructions in full sentences (don't try to speed read instructions)
 - avoid rabbit holes
+- redistributing eigrp, use as number not process number
+- access-lists for policies should cover all potential listening IPs
+- verify time-range ACLs by changing clock
 
 / STARTUP /
 - on paper
@@ -41,6 +55,7 @@ Likely going to borrow time from config
     ibgp sessions can withstand link failure (loopbacks, route reflectors)
 - for ospf, where is backbone?
 - care of ospf area boundaries
+- TROUBLESHOOTING: careful about skimming while reading problems being described
 
 / BUILDING /
 
