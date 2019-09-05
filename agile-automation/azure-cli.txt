@@ -6,3 +6,6 @@ az account set --subscription "Name here"
 
 # ansible play
 ansible-playbook -i localhost ./playfile.yaml
+
+# app gateway list backend addresses
+az network application-gateway show-backend-health -n gatewayname -g rsgname| grep address

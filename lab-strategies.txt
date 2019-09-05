@@ -1,8 +1,28 @@
+# TODO
+- What will I write down on paper when I start?
+- Printout(s) to have present during travels, in lobby
+- Review video from CLUS
+
 / SOURCES /
 Tim McConnaughy: https://carpe-dmvpn.com
-
 Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section/
 
+
+*** IN GENERAL ***
+/ COMMON MISTAKES /
+- Not reading instructions in full sentences (don't try to speed read instructions)
+- avoid rabbit holes
+- access-lists for policies should cover all potential listening IPs
+- verify time-range ACLs by changing clock
+
+- sneaky wording
+    don't configure network type on SPOKES
+    must ONLY receive a default route
+    should never become a transit device (stub routing)
+    no TCNs are sent (portfast)
+    ibgp sessions can withstand link failure (loopbacks, route reflectors)
+- for ospf, where is backbone?
+- care of ospf area boundaries
 
 **** DIAG ****
 1. open (and keep open) exam diagram and review
@@ -12,61 +32,45 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
     tells problem to be resolved
 3. review range of possible answers
 
-
-
 **** TSHOOT ****
 Determine approximate number of points needed to pass
 5 minutes per task, extend 5 as needed, then take notes and move on
 Likely going to borrow time from config
 
 **** CONFIG ****
+1. Prepare task paper
+    Task index | locations and task numbers with code (B, EI, OS, MC, etc.)
 
-/ COMMON MISTAKES /
-- Not reading instructions in full sentences (don't try to speed read instructions)
-- avoid rabbit holes
-- redistributing eigrp, use as number not process number
-- access-lists for policies should cover all potential listening IPs
-- verify time-range ACLs by changing clock
+2. Read instructions
+    Tasks: ignore L2 for now
+    review addressing scheme on diagram(s)
+    fill out task numbers, mark verification milestones with ___ in task index
 
-/ STARTUP /
-- on paper
-    [far-left column is tasks]
-    [remaining columns are sites]
+3. Setup screens
+- RIGHT monitor
+    putty screens       main window     long notepad
+- LEFT monitor
+    diagrams            tasks
 
-- begin reading instructions
-    don't worry about l2
-    fill out task numbers, mark verification tasks
-    check sections
+4. Begin tasks
 
-- launch console to determine 'putty screen'
-- align other windows, one monitor for diagram
-- other monitor layout:
-    putty sessions  [top left]  task lists [top right]
-    notepads [bottom]
+general building strategy
 
-/ READING /
+Network bulid task order:
+- L2
+    - check direct neighbor reachability (ping 255.255.255.255, in blocks)
+- service provider routes
+    links
+    bgp
+- DMVPNs
+- MPLS core PE/CE
+- IGPs IPv4
+    main office(s)
+    branches
 
-- review diagram and addressing scheme
-- sneaky wording
-    don't configure network type on SPOKES
-    must ONLY receive a default route
-    should never become a transit device (stub routing)
-    no TCNs are sent (portfast)
-    ibgp sessions can withstand link failure (loopbacks, route reflectors)
-- for ospf, where is backbone?
-- care of ospf area boundaries
-- TROUBLESHOOTING: careful about skimming while reading problems being described
-
-/ BUILDING /
-
-general building strategy - L2/L3
-- complete layer 2
-- check direct neighbor reachability (ping 255.255.255.255, in blocks)
-- no shut on switch SVIs
 - prior to redistribution, save config!
 - all redistribution config in notepad
 - redistributing connected, careful of 'metric-type' and clauses
-
 
 guidelines
 - consolidate work when connecting into devices
