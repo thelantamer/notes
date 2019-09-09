@@ -59,6 +59,7 @@ general building strategy
 Network bulid task order:
 - L2
     - check direct neighbor reachability (ping 255.255.255.255, in blocks)
+    - sw to router, rely on CDP?
 - service provider routes
     links
     bgp
