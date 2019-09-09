@@ -31,11 +31,23 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 2. email exchange
     tells problem to be resolved
 3. review range of possible answers
+4. Don't scroll so much, use links to jump to sections
+
+- RIGHT monitor
+    exam window
+- LEFT monitor
+    duplicated window to see materials (perhaps 2)
+
 
 **** TSHOOT ****
 Determine approximate number of points needed to pass
 5 minutes per task, extend 5 as needed, then take notes and move on
 Likely going to borrow time from config
+
+- RIGHT monitor
+    putty screens       window for launching terminals     long notepad (saving cfgs)
+- LEFT monitor
+    diagram window      ticket window
 
 **** CONFIG ****
 1. Prepare task paper
@@ -48,9 +60,9 @@ Likely going to borrow time from config
 
 3. Setup screens
 - RIGHT monitor
-    putty screens       main window     long notepad
+    putty screens       window for launching terminals     long notepad
 - LEFT monitor
-    diagrams            tasks
+    diagram window      task window
 
 4. Begin tasks
 
