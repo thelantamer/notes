@@ -1,7 +1,9 @@
 # TODO
 - What will I write down on paper when I start?
+    OSPF network types
 - Printout(s) to have present during travels, in lobby
 - Review video from CLUS
+    - Cancun 2017 done
 
 / SOURCES /
 Tim McConnaughy: https://carpe-dmvpn.com
@@ -9,13 +11,18 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 
 
 *** IN GENERAL ***
+/ OVERALL STRATEGY /
+- Cherry pick, just pass
+- avoid rabbit holes
+- verify state, not configs
+- re-read instructions
+
 / COMMON MISTAKES /
 - Not reading instructions in full sentences (don't try to speed read instructions)
-- avoid rabbit holes
 - access-lists for policies should cover all potential listening IPs
 - verify time-range ACLs by changing clock
 
-- sneaky wording
+- traps
     don't configure network type on SPOKES
     must ONLY receive a default route
     should never become a transit device (stub routing)
@@ -23,6 +30,20 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
     ibgp sessions can withstand link failure (loopbacks, route reflectors)
 - for ospf, where is backbone?
 - care of ospf area boundaries
+
+**** TSHOOT ****
+- Keep track of points, go for 60-80%
+- read guidelines first, that's where most restrictions are
+- 5 minutes per task, extend 5 as needed, then take notes and move on
+- save configs after task completion
+
+- RIGHT monitor
+    putty screens       window for launching terminals     long notepad (saving cfgs)
+- LEFT monitor
+    diagram window      ticket window
+
+
+
 
 **** DIAG ****
 1. open (and keep open) exam diagram and review
@@ -38,16 +59,6 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 - LEFT monitor
     duplicated window to see materials (perhaps 2)
 
-
-**** TSHOOT ****
-Determine approximate number of points needed to pass
-5 minutes per task, extend 5 as needed, then take notes and move on
-Likely going to borrow time from config
-
-- RIGHT monitor
-    putty screens       window for launching terminals     long notepad (saving cfgs)
-- LEFT monitor
-    diagram window      ticket window
 
 **** CONFIG ****
 1. Prepare task paper
