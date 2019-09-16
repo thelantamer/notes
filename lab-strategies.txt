@@ -36,6 +36,8 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 - read guidelines first, that's where most restrictions are
 - 5 minutes per task, extend 5 as needed, then take notes and move on
 - save configs after task completion
+- 'logging console', 'no logging console' as needed
+- save interesting configs to desktop for reference in config
 
 - RIGHT monitor
     putty screens       window for launching terminals     long notepad (saving cfgs)
