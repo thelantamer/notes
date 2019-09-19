@@ -42,7 +42,7 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 - RIGHT monitor
     putty screens       window for launching terminals     long notepad (saving cfgs)
 - LEFT monitor
-    diagram window      ticket window
+    diagram             tickets
 
 
 
@@ -57,9 +57,9 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 4. Don't scroll so much, use links to jump to sections
 
 - RIGHT monitor
-    exam window
+    questions/answers
 - LEFT monitor
-    duplicated window to see materials (perhaps 2)
+    diagrams    configs/emails
 
 
 **** CONFIG ****
