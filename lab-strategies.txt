@@ -32,10 +32,10 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 - care of ospf area boundaries
 
 **** TSHOOT ****
-- Keep track of points, go for 60-80%
+- Keep track of points, go for 60-80% (miss 1 4-pointer, 2 2-pointers)
 - read guidelines first, that's where most restrictions are
 - 5 minutes per task, extend 5 as needed, then take notes and move on
-- save configs after task completion
+- wr mem after a solve
 - 'logging console', 'no logging console' as needed
 - save interesting configs to desktop for reference in config
 
@@ -55,6 +55,7 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
     tells problem to be resolved
 3. review range of possible answers
 4. Don't scroll so much, use links to jump to sections
+5. Need 2 of 3
 
 - RIGHT monitor
     questions/answers
