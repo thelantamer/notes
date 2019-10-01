@@ -1,9 +1,10 @@
 # TODO
 - What will I write down on paper when I start?
     OSPF network types
+        multipoint: generate host routes due to l2 to l3 differences
+        non-broadcast: unicast only
+        point-to: no DR/BDR election
 - Printout(s) to have present during travels, in lobby
-- Review video from CLUS
-    - Cancun 2017 done
 
 / SOURCES /
 Tim McConnaughy: https://carpe-dmvpn.com
@@ -12,8 +13,9 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 
 *** IN GENERAL ***
 / OVERALL STRATEGY /
-- Cherry pick, just pass
-- avoid rabbit holes
+- Cherry pick, get most points possible, e.g. redistribution, ppp, etc.
+- Validate to guarantee points
+- avoid rabbit holes, get connectivity/functionality and move on
 - verify state, not configs
 - re-read instructions
 
@@ -36,15 +38,13 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 - read guidelines first, that's where most restrictions are
 - 5 minutes per task, extend 5 as needed, then take notes and move on
 - wr mem after a solve
-- 'logging console', 'no logging console' as needed
+- 'logging console', 'no logging console', debug as needed
 - save interesting configs to desktop for reference in config
 
 - RIGHT monitor
     putty screens       window for launching terminals     long notepad (saving cfgs)
 - LEFT monitor
-    diagram             tickets
-
-
+    diagram             ticket window
 
 
 **** DIAG ****
