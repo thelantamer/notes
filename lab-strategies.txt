@@ -6,25 +6,31 @@
         point-to: no DR/BDR election
 - Printout(s) to have present during travels, in lobby
 
-/ SOURCES /
-Tim McConnaughy: https://carpe-dmvpn.com
-Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section/
-
-
 *** IN GENERAL ***
 / OVERALL STRATEGY /
 - Cherry pick, get most points possible, e.g. redistribution, ppp, etc.
-- Validate to guarantee points
+- Validate to guarantee points, final read of requirements before marking done
 - avoid rabbit holes, get connectivity/functionality and move on
 - verify state, not configs
-- re-read instructions
+- consolidate work when connecting into devices when possible
+- watch for broken underlays and discontiguous areas, if can't fix mend yourself
+    PIM interfaces
+    OSPF interfaces/areas
+        use virtual-links or multi-areas unless prohibited
+    LDP/MPLS interfaces
+    IGP discontiguous areas with BGP 'bridges'
+        bgp redistribute-internal
+- MPLS filters
+    vrf def and 'import-map'
+    ext-community lists and rt 1:1
+
 
 / COMMON MISTAKES /
 - Not reading instructions in full sentences (don't try to speed read instructions)
 - access-lists for policies should cover all potential listening IPs
 - verify time-range ACLs by changing clock
 
-- traps
+- requirement verbiage 'traps'
     don't configure network type on SPOKES
     must ONLY receive a default route
     should never become a transit device (stub routing)
@@ -34,34 +40,49 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
 - care of ospf area boundaries
 
 **** TSHOOT ****
+
+[LEFT monitor]                  [RIGHT monitor]
+diagrams       ticket window    putty screens  long notepad
+                                    launch window
+
 - Keep track of points, go for 60-80% (miss 1 4-pointer, 2 2-pointers)
 - read guidelines first, that's where most restrictions are
 - 5 minutes per task, extend 5 as needed, then take notes and move on
-- wr mem after a solve
-- 'logging console', 'no logging console', debug as needed
+- after a solve, re-read requirements before a 'wr mem'
+- line outputs
+    sh term | i lines
+    term mon
+
+    sh logg | i Console logg
+    logg con
+    no logg con
+
+- watch for common faults
+    sh run | i policy|access
 - save interesting configs to desktop for reference in config
-
-- RIGHT monitor
-    putty screens       window for launching terminals     long notepad (saving cfgs)
-- LEFT monitor
-    diagram             ticket window
-
+- debug and u all as needed
+    debug ip ospf adj
+    debug ppp negot
+    debug ip bgp updates
 
 **** DIAG ****
-1. open (and keep open) exam diagram and review
+
+[LEFT monitor]                  [RIGHT monitor]
+diagrams - configs/emails       questions/answers
+
+- 'traps'
+    where is request 'received' vs where is it sent
+    how many answers for question
+    don't just diagnose, hone in on what's being asked
+- open (and keep open) exam diagram and review
     routing protocols
     device/interface types
-2. email exchange
+- email exchange
     tells problem to be resolved
-3. review range of possible answers
-4. Don't scroll so much, use links to jump to sections
-5. Need 2 of 3
-
-- RIGHT monitor
-    questions/answers
-- LEFT monitor
-    diagrams    configs/emails
-
+- review range of possible answers
+- Don't scroll so much, use links to jump to sections
+- Need 2 of 3
+- Keep each section under 10 mins, then move on
 
 **** CONFIG ****
 1. Prepare task paper
@@ -72,11 +93,9 @@ Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section
     review addressing scheme on diagram(s)
     fill out task numbers, mark verification milestones with ___ in task index
 
-3. Setup screens
-- RIGHT monitor
-    putty screens       window for launching terminals     long notepad
-- LEFT monitor
-    diagram window      task window
+[LEFT monitor]                  [RIGHT monitor]
+diagrams       task window      putty screens         long notepad
+                                        launch window
 
 4. Begin tasks
 
@@ -85,24 +104,32 @@ general building strategy
 Network bulid task order:
 - L2
     - check direct neighbor reachability (ping 255.255.255.255, in blocks)
-    - sw to router, rely on CDP?
-- service provider routes
-    links
-    bgp
-- DMVPNs
-- MPLS core PE/CE
+    - cdp
+    - check for switch SVIs
 - IGPs IPv4
     main office(s)
     branches
+- IGPs IPv6
+    main office(s)
+    branches
+- SP peering (Internet, MetroE)
+    links
+    bgp
+- MPLS core PE/CE
+- DMVPNs
+- Services
+- Security
 
-- prior to redistribution, save config!
+- prior to redistribution show route tables, save config!
 - all redistribution config in notepad
 - redistributing connected, careful of 'metric-type' and clauses
-
-guidelines
-- consolidate work when connecting into devices
 
 workstation
 - shift+insert for paste in putty
 - cascading windows
 - mouse-click on putty windows bar at top, not in window
+
+/ SOURCES /
+Tim McConnaughy: https://carpe-dmvpn.com
+Chris Miles: https://thecontrolplane.com/2019/06/21/ccie-strategy-config-section/
+

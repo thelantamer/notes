@@ -48,6 +48,7 @@ sudo mkntfs /dev/sdb1 -f
 
 CHECK DISK SPACE
 du -h  	disk usage from current folder, human-readable format
+du -hc -d 1		disk size, show largest folder
 df -h  	disk usage on all drives, human-readable
 
 BACKGROUND TERMINALS, DISCONNECT AND RECONNECT

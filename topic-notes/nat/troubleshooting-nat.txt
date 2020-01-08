@@ -1,0 +1,6 @@
+Troubleshooting NAT issues:
+1. Write out NAT statements at each point, IL, IG, OL, OG
+2. Verify NAT statements match
+3. Test end-to-end NAT
+4. Verify service running over NAT using correct addressing
+5. Test service

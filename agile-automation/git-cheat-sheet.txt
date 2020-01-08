@@ -13,3 +13,7 @@ git config --global credential.helper 'cache --timeout=28800'
 
 # git add username for https login
 git config remote.origin.url https://thelantamer@github.com/thelantamer/notes.git
+
+# git merge two branches
+git checkout BRANCH1
+git merge BRANCH2

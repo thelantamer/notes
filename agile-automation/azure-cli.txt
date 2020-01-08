@@ -2,7 +2,13 @@
 az login
 
 # Set subscription
-az account set --subscription "Name here"
+az account set -s "subscription name here"
+
+# validate template deployment
+az group deployment validate --template-file ./template.json --parameters ./parameters.json -g my-resource-group --debug 
+
+# new template deployment
+az group deployment create --template-file ./template.json --parameters ./parameters.json -g my-resource-group --debug 
 
 # ansible play
 ansible-playbook -i localhost ./playfile.yaml
