@@ -1,3 +1,8 @@
+# 'curl' in powershell
+$headers = @{}
+$headers.Add("Ocp-Apim-Subscription-Key","blahblahblah")
+Invoke-webrequest -uri https://testmw8.azure-api.net/myapp/api/values -Method Get -headers $headers
+
 # Azure Az
 Connect-AzAccount
 Set-AzContext -subscription NEWSUBNAME
