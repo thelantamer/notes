@@ -1,0 +1,13 @@
+Terraform
+
+each file is a representation of a state file back on the storage blob
+
+terraform init: create working directory
+terraform plan: connect to storage account as listed in main.tf file
+    compare state in storage account with running state
+        show differences
+
+terraform apply: apply generated plan
+
+export TF_LOG=TRACE
+    set 'TF_LOG' environment variable to trace for logging

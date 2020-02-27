@@ -32,3 +32,6 @@ New-AzResourceGroupDeployment -ResourceGroupName gateway1 -TemplateFile template
 # secure string for pfx password
 $passwd = ConvertTo-SecureString  <certificate file password> -AsPlainText -Force 
 $cert = New-AzApplicationGatewaySSLCertificate -Name testcertificate -CertificateFile c:\admin\mycert.pfx -Password $passwd
+
+# disable windows vm firewall
+netsh advfirewall set allprofiles state off
