@@ -1,6 +1,5 @@
 ### GNU Linux Cheat Sheet ###
 
-
 # special permissions for ssh keys
 chmod 600 keyfile.pub
 
@@ -55,6 +54,8 @@ BACKGROUND TERMINALS, DISCONNECT AND RECONNECT
 screen -d -R name
 screen -r name
 [CTRL+a, d to detach]
+
+screen -X -S [# to kill] quit	kill the screen session
 
 TAR (BACKUP WITH GZIP COMPRESSION)
 tar czfv source dest.tgz

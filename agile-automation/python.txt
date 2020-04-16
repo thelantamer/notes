@@ -1,0 +1,38 @@
+// install python modules
+sudo apt install python python3 virtualenv python-virtualenv
+cd
+// setup environment
+# switch to root of new project folder
+cd newproj
+
+# create a new virtual environment inside the project folder called env
+virtualenv -p /usr/bin/python3 env
+
+# change to new working directory to be used as root of new environment
+
+# initialize python environment
+source env/bin/activate
+
+// setup napalm
+# install modules
+pip install ansible napalm napalm-ansible
+
+# can also install modules using a requirements.txt file
+requirements.txt:
+napalm==2.4.0
+click==6.7
+
+pip install -r requirements.txt
+
+# clone napalm ansible modules from repo
+sudo mkdir -p /usr/share/ansible/plugins/modules
+
+sudo git clone https://github.com/napalm-automation/napalm-ansible.git /usr/share/ansible/plugins/modules
+ansible-doc napalm_get_facts 
+
+# verify installation
+ansible-doc napalm_get_facts
+
+// napalm commands
+# napalm connect to device for basic info
+napalm -u cisco -p cisco -v ios csr1kv1 call get_facts

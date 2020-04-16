@@ -1,2 +1,0 @@
-show ipv6 int br | ex (unas|down)
-

@@ -1,7 +1,17 @@
-Terraform
+// view traces //
+export TF_LOG=TRACE
+    set 'TF_LOG' environment variable to trace for logging
 
+## dynamic backend files
+terraform init -backend-config './np1/backend.conf'
+
+## dynamic variable files
+terraform plan –var-file ./np1/vars.tf
+
+// general notes //
 each file is a representation of a state file back on the storage blob
 
+// general commands //
 terraform init: create working directory
 terraform plan: connect to storage account as listed in main.tf file
     compare state in storage account with running state
@@ -9,5 +19,16 @@ terraform plan: connect to storage account as listed in main.tf file
 
 terraform apply: apply generated plan
 
-export TF_LOG=TRACE
-    set 'TF_LOG' environment variable to trace for logging
+
+// manage state file //
+# list items
+terraform state list
+
+# remove items
+terraform state rm ADDRESS
+
+# show items
+terraform state show ADDRESS
+
+# import resource into state file
+terraform import 
