@@ -6,7 +6,7 @@ cd
 cd newproj
 
 # create a new virtual environment inside the project folder called env
-virtualenv -p /usr/bin/python3 env
+virtualenv -p /usr/bin/python3 venv
 
 # change to new working directory to be used as root of new environment
 
@@ -15,7 +15,7 @@ source env/bin/activate
 
 // setup napalm
 # install modules
-pip install ansible napalm napalm-ansible
+pip install napalm
 
 # can also install modules using a requirements.txt file
 requirements.txt:
@@ -36,3 +36,32 @@ ansible-doc napalm_get_facts
 // napalm commands
 # napalm connect to device for basic info
 napalm -u cisco -p cisco -v ios csr1kv1 call get_facts
+
+// working with REPL (Read Evaluate Print Loop)
+# import a file into REPL interpreter
+import myfile.py
+
+# load ipython for interactive REPL
+ipython3
+
+# auto reload in ipython
+%load_ext autoreload
+
+# important PEPs
+pep8
+https://www.python.org/dev/peps/pep-0002/
+
+pep20
+https://www.python.org/dev/peps/pep-0020/
+
+# browsing functions and documentation in a module
+help(modulename)
+
+# raw string, use r
+path = r'c:\users\myfile\thisdir'
+
+# shebang for python3
+#!/usr/bin/env python3
+
+# dunder main check inside a module
+if __name__ == '__main__'
