@@ -1,17 +1,12 @@
-// install python modules
+// linux - install python modules
 sudo apt install python python3 virtualenv python-virtualenv
 cd
-// setup environment
-# switch to root of new project folder
-cd newproj
 
 # create a new virtual environment inside the project folder called env
 virtualenv -p /usr/bin/python3 venv
 
-# change to new working directory to be used as root of new environment
-
 # initialize python environment
-source env/bin/activate
+source venv/bin/activate
 
 // setup napalm
 # install modules

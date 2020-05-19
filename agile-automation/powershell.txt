@@ -7,15 +7,11 @@ Invoke-webrequest -uri https://testmw8.azure-api.net/myapp/api/values -Method Ge
 Connect-AzAccount
 Set-AzContext -subscription NEWSUBNAME
 
-# AzureRM
-Connect-AzureRmAccount
-Set-AzureRmContext -Subscription subname
-
 # test deploy
-Test-AzureRmResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
+Test-AzResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
 
 # deploy
-New-AzureRmResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
+New-AzResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
 
 # continuation for deployment with detail
 $ErrorActionPreference = 'Continue'

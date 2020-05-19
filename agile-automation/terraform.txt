@@ -3,10 +3,10 @@ export TF_LOG=TRACE
     set 'TF_LOG' environment variable to trace for logging
 
 ## dynamic backend files
-terraform init -backend-config './np1/backend.conf'
+terraform init -backend-config=np1/backend.conf
 
 ## dynamic variable files
-terraform plan –var-file ./np1/vars.tf
+terraform plan –var-file=np1/vars.tf
 
 // general notes //
 each file is a representation of a state file back on the storage blob

@@ -1,5 +1,7 @@
 ### grep
 
+grep -w 'literalstring'
+
 #search a file and copy results, along with 10 lines after text
 grep -E 'mytext' myfile.txt -A 10 > newfile.txt
 
