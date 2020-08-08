@@ -1,4 +1,0 @@
-### napalm scripting ###
-
-# napalm module documentation
-ansible-doc napalm_get_facts

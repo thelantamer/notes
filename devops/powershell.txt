@@ -1,0 +1,36 @@
+# bulk rename files
+get-childItem 2020-01-01.* | rename-item -newname { $_.name -replace '2020-01-01','2020-02-02' }
+
+# 'curl' in powershell
+$headers = @{}
+$headers.Add("Ocp-Apim-Subscription-Key","blahblahblah")
+Invoke-webrequest -uri https://testmw8.azure-api.net/myapp/api/values -Method Get -headers $headers
+
+# Azure Az
+Connect-AzAccount
+Set-AzContext -subscription NEWSUBNAME
+
+# test deploy
+Test-AzResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
+
+# deploy
+New-AzResourceGroupDeployment -ResourceGroupName rsgname -TemplateFile template.json -TemplateParameterFile .\pd1\parameters.json
+
+# continuation for deployment with detail
+$ErrorActionPreference = 'Continue'
+
+# RSG deployment with debug
+New-AzResourceGroupDeployment -ResourceGroupName gateway1 -TemplateFile template.json -TemplateParameterFile .\ut1\parameters.json -DeploymentDebugLogLevel All -Name 2019-06-28.1644.ut1-test-deploy
+
+# RSG deployment debug request view
+(Get-AzResourceGroupDeploymentOperation -DeploymentName 2019-06-28.1644.ut1-test-deploy -ResourceGroupName gatewayname).Properties.request | ConvertTo-Json
+
+# RSG deployment debug response view
+(Get-AzResourceGroupDeploymentOperation -DeploymentName 2019-06-28.1644.ut1-test-deploy -ResourceGroupName gatewayname).Properties.response | ConvertTo-Json
+
+# secure string for pfx password
+$passwd = ConvertTo-SecureString  <certificate file password> -AsPlainText -Force 
+$cert = New-AzApplicationGatewaySSLCertificate -Name testcertificate -CertificateFile c:\admin\mycert.pfx -Password $passwd
+
+# disable windows vm firewall
+netsh advfirewall set allprofiles state off
