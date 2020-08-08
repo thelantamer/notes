@@ -1,3 +1,21 @@
+# create branch and switch to it
+git switch -b newbranch
+
+# discard changes to a single file
+git restore singlefile.txt
+
+# show staged changes
+git diff --staged
+
+# show changes between working tree and 'master' branch
+git diff master
+
+# remove file from staged section
+git restore --staged singlefile.txt
+
+# last 3 commits from current position
+git log -3
+
 # remove all local commits, completely reset to master commit
 git reset --hard origin/master
 
@@ -17,3 +35,4 @@ git config remote.origin.url https://thelantamer@github.com/thelantamer/notes.gi
 # git merge two branches
 git checkout BRANCH1
 git merge BRANCH2
+

@@ -26,3 +26,7 @@ az network vnet list --query "[*].[name, dhcpOptions.dnsServers]"
 
 # query for non-empty dns servers
 az network vnet list --query "[?dhcpOptions.dnsServers != null].[name, dhcpOptions.dnsServers]"
+
+// what-if deployment check
+
+az deployment group what-if --resource-group MYRSG --template-file "c:\MYTEMPLATEFILE.json" --parameters "c:\MYPARAMETERSFILE\parameters.json"

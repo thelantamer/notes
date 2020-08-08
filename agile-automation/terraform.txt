@@ -32,3 +32,6 @@ terraform state show ADDRESS
 
 # import resource into state file
 terraform import 
+
+# destroy a single resource
+erraform destroy -var-file=np1/vars.tf -target=azurerm_dev_test_lab.RES_DEV_TEST_LAB

@@ -1,0 +1,8 @@
+// kudu console //
+
+Check certificate stores for .net
+cd cert:\currentuser\my
+dir
+
+cd cert:\localmachine\my
+dir
