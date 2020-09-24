@@ -1,8 +1,9 @@
-# add ssh passphrase under Windows command prompt
-ssh-agent -s
+# add ssh passphrase
+## git bash for windows
+eval $(ssh-agent)
 ssh-add c:\users\me\.ssh\id_rsa
 
-# Set subscription
+# set subscription
 az account set -s "subscription name here"
 
 # validate template deployment

@@ -195,3 +195,10 @@ http://bit.ly/WFUNd8
 [compose key + ‘ + e]	é
 [compose key + : + u]	ü
 [compose key,~,n]		ñ
+
+
+# ssh agent
+eval "$(ssh-agent -s)" && ssh-add -k ~/.ssh/id_rsa
+
+# sync folders using rsync and ssh
+rsync -avh -e ssh . user1@host1.mydomain.com:/home/user1/ansibletmp
