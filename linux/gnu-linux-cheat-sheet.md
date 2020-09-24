@@ -1,22 +1,22 @@
-### GNU Linux Cheat Sheet ###
+# GNU Linux Cheat Sheet
 
-# special permissions for ssh keys
+## special permissions for ssh keys
 chmod 600 keyfile.pub
 
-# chown for user and group
+## chown for user and group
 sudo chown myuseracct:myuseracct filename
 
-# preferred bash prompt
+## preferred bash prompt
 export PS1="\[\033[0;32m\]\u@\h:\[\033[36m\]\W\[\033[0m\] \$ "
 
-# linux distro info
+## linux distro info
 cat /etc/*release
 
-# copy ssh keys for auto login
+## copy ssh keys for auto login
 ssh destuser@desthost mkdir -p .ssh
 cat ~/.ssh/id_rsa.pub | ssh destuser@desthost 'cat >> .ssh/authorized_keys'
 
-# scp basics
+## scp basics
 scp /path/to/source username@host:/path/to/destination
 
 REMOTE DESKTOP (Windows host)
@@ -55,7 +55,7 @@ screen -d -R name
 screen -r name
 [CTRL+a, d to detach]
 
-screen -X -S [# to kill] quit	kill the screen session
+screen -X -S [## to kill] quit	kill the screen session
 
 TAR (BACKUP WITH GZIP COMPRESSION)
 tar czfv source dest.tgz
@@ -197,8 +197,11 @@ http://bit.ly/WFUNd8
 [compose key,~,n]		ñ
 
 
-# ssh agent
+## ssh agent
 eval "$(ssh-agent -s)" && ssh-add -k ~/.ssh/id_rsa
 
-# sync folders using rsync and ssh
+## sync folders using rsync and ssh
 rsync -avh -e ssh . user1@host1.mydomain.com:/home/user1/ansibletmp
+
+## remove all files from current folder, including hidden (like .git)
+find ! -name '.' ! -name '..' -delete
