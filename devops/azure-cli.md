@@ -32,3 +32,9 @@ az network vnet list --query "[?dhcpOptions.dnsServers != null].[name, dhcpOptio
 // what-if deployment check
 
 az deployment group what-if --resource-group MYRSG --template-file "c:\MYTEMPLATEFILE.json" --parameters "c:\MYPARAMETERSFILE\parameters.json"
+
+# query list of vnets and address ranges with DNS servers
+z network vnet list --query '[*].{VNET:name, SUBNET:addressSpace.addressPrefixes, DNS:dhcpOptions.dnsServers}'
+
+# assign subnet permissions
+az role assignment create --assignee 000-00-000-OBJECT-ID --role "Network Contributor" --scope /subscriptions/MY-SUBSCRIPTION-ID/resourceGroups/resource-group-name/providers/Microsoft.Network/virtualNetworks/my-virtual-machine

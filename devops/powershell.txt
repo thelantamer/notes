@@ -34,3 +34,6 @@ $cert = New-AzApplicationGatewaySSLCertificate -Name testcertificate -Certificat
 
 # disable windows vm firewall
 netsh advfirewall set allprofiles state off
+
+# add role assignment for subnt
+New-AzRoleAssignment -ObjectId OBJECTIDGUID -RoleDefinitionName "Network Contributor" -ResourceName SUBNETNAME -ResourceType Microsoft.Network/virtualNetworks/subnets -ParentResource virtualNetworks/VNETNAME -ResourceGroupName RSGNAME
