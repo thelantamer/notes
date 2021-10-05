@@ -12,6 +12,9 @@ grep -E 'mytex1.*mytext2' myfile.txt
 grep -E 'mytex1|mytext2' myfile.txt
 
 #grep and tail
+
+
+
 tail filename.txt | grep -E 'mytex1|mytext2'
 
 

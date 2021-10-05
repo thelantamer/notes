@@ -19,7 +19,7 @@ cat ~/.ssh/id_rsa.pub | ssh destuser@desthost 'cat >> .ssh/authorized_keys'
 ## scp basics
 scp /path/to/source username@host:/path/to/destination
 
-REMOTE DESKTOP (Windows host)
+REMOTE DESKTOP (Windows host)h
 rdesktop -u username -d domainname -g 1152x1008 -p yourpassword -a 16 -r disk:fedora=/home/username/ -r clipboard:CLIPBOARD -z -x b -k en-us hostname &
 specify screen size, share local folder and clipoboard, run as background task, no window decorations
 
